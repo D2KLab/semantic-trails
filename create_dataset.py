@@ -121,10 +121,7 @@ fp_out = open(f_out, 'w', encoding='utf8')
 
 sequence_counter = 0
 user_counter = 0
-venue_counter = 0
-
 users_out = {}
-venues_out = {}
 
 checkins_per_path = []
 checkin_counter = None
@@ -137,7 +134,6 @@ last_timestamp = None
 def save_checkin(checkin, new_path=False):
     global sequence_counter
     global user_counter
-    global venue_counter
 
     global checkin_counter
     global initial_timestamp
@@ -162,19 +158,14 @@ def save_checkin(checkin, new_path=False):
     if checkin['user'] not in users_out:
         user_counter += 1
         users_out[checkin['user']] = user_counter
-    
-    # venue index
-    if checkin['venue'] not in venues_out:
-        venue_counter += 1
-        venues_out[checkin['venue']] = venue_counter
 
     line = ''
-    line += str(sequence_counter) + ','
-    line += str(users_out[checkin['user']]) + ','
-    line += str(venues_out[checkin['venue']]) + ','
-    line += str(venues[checkin['venue']]['cat']) + ','
-    line += str(venues[checkin['venue']]['city']) + ','
-    line += str(venues[checkin['venue']]['cc']) + ','
+    line += str(sequence_counter) + '\t'
+    line += str(users_out[checkin['user']]) + '\t'
+    line += str(checkin['venue']) + '\t'
+    line += str(venues[checkin['venue']]['cat']) + '\t'
+    line += str(venues[checkin['venue']]['city']) + '\t'
+    line += str(venues[checkin['venue']]['cc']) + '\t'
     line += checkin['timestamp'].replace(second=0).isoformat() + '\n'
     fp_out.write(line)
 
