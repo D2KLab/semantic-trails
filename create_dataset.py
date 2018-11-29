@@ -170,42 +170,6 @@ def save_checkin(checkin, new_path=False):
     fp_out.write(line)
 
 
-def flash_detector(ds, v):
-    limit_1 = 5
-    limit_2 = 12
-    limit_3 = 18
-    limit_4 = 40
-    limit_5 = 50
-    limit_6 = 250
-    
-    distance_1 = 500
-    distance_2 = 4000
-    distance_3 = 20000
-    distance_4 = 150000
-    distance_5 = 600000
-    
-    if ds <= distance_1:
-        if v > limit_1:
-            return True
-    elif distance_1 < ds <= distance_2:
-        if v > limit_2:
-            return True
-    elif distance_2 < ds <= distance_3:
-        if v > limit_3:
-            return True
-    elif distance_3 < ds <= distance_4:
-        if v > limit_4:
-            return True
-    elif distance_4 < ds <= distance_5:
-        if v > limit_5:
-            return True
-    else:
-        if v > limit_6:
-            return True
-
-    return False
-
-
 def invalid_speed(last_checkin, current_checkin):
     # compute travel duration in seconds
     last_timestamp = int(last_checkin['timestamp'].timestamp())
@@ -215,15 +179,17 @@ def invalid_speed(last_checkin, current_checkin):
     # compute travel distance in metres
     last_venue = last_checkin['venue']
     current_venue = current_checkin['venue']
-    ds = abs(haversine((venues[last_venue]['lat'], venues[last_venue]['lon']), (venues[current_venue]['lat'], venues[current_venue]['lon']))) * 1000
+    ds = abs(haversine((venues[last_venue]['lat'], venues[last_venue]['lon']),
+                       (venues[current_venue]['lat'], venues[current_venue]['lon']))) * 1000
 
     if dt <= 0:
         return True
 
     # compute speed in m/s
-    v = ds / float(dt)
-    
-    if flash_detector(ds, v):
+    speed = ds / float(dt)
+
+    # if the speed is too high
+    if speed > 331.6:
         return True
 
     return False
