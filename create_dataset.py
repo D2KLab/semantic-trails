@@ -221,26 +221,25 @@ for current_checkin in sorted_checkins:
 
     # check if this is the first checkin
     if last_checkin is not None:
+        invalid_checkin = False
 
         # check if the current checkin has the same venue of the last one
         if current_checkin['venue'] == last_checkin['venue']:
             num_same_venue += 1
-            last_checkin = current_checkin
-
-            # skip the current checkin
-            continue
+            invalid_checkin = True
         
         # check if the current checkin was created in less than a minute from the last one
         if current_checkin['timestamp'] < last_checkin['timestamp'] + timedelta(minutes=1):
             num_invalid_time += 1
-            last_checkin = current_checkin
-
-            # skip the current checkin
-            continue
+            invalid_checkin = True
         
         # check if the user is moving too fast
         if invalid_speed(last_checkin, current_checkin):
             num_invalid_speed += 1
+            invalid_checkin = True
+
+        # filters are checked separately
+        if invalid_checkin:
             last_checkin = current_checkin
 
             # skip the current checkin
@@ -266,7 +265,7 @@ for current_checkin in sorted_checkins:
     # for the next iteration
     last_checkin = current_checkin
 
-print("Number of checkins with the same venue:", num_same_venue)
+print("Number of checkins with invalid venue:", num_same_venue)
 print("Number of checkins with invalid time:", num_invalid_time)
 print("Number of checkins with invalid speed:", num_invalid_speed)
 
@@ -275,7 +274,7 @@ if checkin_counter is not None:
 checkins_per_path = np.array(checkins_per_path)
 np.save('checkins_per_path.npy', checkins_per_path)
 print("Number of valid checkins:", np.sum(checkins_per_path))
-print("Number of paths:", len(checkins_per_path))
+print("Number of trails:", len(checkins_per_path))
 
 if initial_timestamp is not None:
     timedelta_per_path.append(last_timestamp - initial_timestamp)
