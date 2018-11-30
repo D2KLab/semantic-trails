@@ -6,7 +6,7 @@ import numpy as np
 import reverse_geocoder as rg
 from haversine import haversine
 
-f_out = "dataset.csv"
+f_out = "std.csv"
 f_venues = "venues.csv"
 f_checkins = "checkins.csv"
 
