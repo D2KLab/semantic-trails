@@ -130,6 +130,9 @@ timedelta_per_path = []
 initial_timestamp = None
 last_timestamp = None
 
+final_venues = set()
+final_cities = set()
+
 
 def save_checkin(checkin, new_path=False):
     global sequence_counter
@@ -158,6 +161,10 @@ def save_checkin(checkin, new_path=False):
     if checkin['user'] not in users_out:
         user_counter += 1
         users_out[checkin['user']] = user_counter
+
+    # count venues and cities
+    final_venues.add(checkin['venue'])
+    final_cities.add(venues[checkin['venue']]['city'])
 
     line = ''
     line += str(sequence_counter) + '\t'
@@ -265,16 +272,24 @@ for current_checkin in sorted_checkins:
     # for the next iteration
     last_checkin = current_checkin
 
-print("Number of checkins with invalid venue:", num_same_venue)
-print("Number of checkins with invalid time:", num_invalid_time)
-print("Number of checkins with invalid speed:", num_invalid_speed)
+print("Number of original checkins:", tot_checkins)
+print("Number of original venues:", len(venues))
+
+sorted_timestamp = sorted(checkins, key=lambda x: x['timestamp'])
+original_timedelta = sorted_timestamp[-1]['timestamp'] - sorted_timestamp[0]['timestamp']
+print("Timedelta between last and first checkin:", original_timedelta.days, "days")
+print("First checkin timestamp:", sorted_timestamp[0]['timestamp'].isoformat())
+print("Last checkin timestamp:", sorted_timestamp[-1]['timestamp'].isoformat())
 
 if checkin_counter is not None:
     checkins_per_path.append(checkin_counter)
 checkins_per_path = np.array(checkins_per_path)
 np.save('checkins_per_path.npy', checkins_per_path)
-print("Number of valid checkins:", np.sum(checkins_per_path))
+print("Number of checkins:", np.sum(checkins_per_path))
 print("Number of trails:", len(checkins_per_path))
+
+print("Number of venues:", len(list(final_venues)))
+print("Number of cities:", len(list(final_cities)))
 
 if initial_timestamp is not None:
     timedelta_per_path.append(last_timestamp - initial_timestamp)
@@ -282,3 +297,7 @@ timedelta_per_path = np.array(timedelta_per_path)
 np.save('timedelta_per_path.npy', timedelta_per_path)
 
 assert len(checkins_per_path) == len(timedelta_per_path)
+
+print("Number of checkins with invalid venue:", num_same_venue)
+print("Number of checkins with invalid time:", num_invalid_time)
+print("Number of checkins with invalid speed:", num_invalid_speed)
