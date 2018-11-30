@@ -196,7 +196,7 @@ def invalid_speed(last_checkin, current_checkin):
     speed = ds / float(dt)
 
     # if the speed is too high
-    if speed > 331.6:
+    if speed > 343:
         return True
 
     return False
