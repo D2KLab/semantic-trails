@@ -1,4 +1,6 @@
 ciso8601
 haversine
 numpy
+requests
 reverse_geocoder
+sparqlwrapper
