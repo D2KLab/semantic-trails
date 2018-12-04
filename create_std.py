@@ -91,6 +91,8 @@ def normalize_offset(offset):
     return sign_offset + str(hour_offset).zfill(2) + str(minute_offset).zfill(2)
 
 
+initial_users = set()
+
 with open(f_checkins, encoding='utf-8') as fp:
     reader = csv.reader(fp, delimiter='\t')
 
@@ -102,6 +104,8 @@ with open(f_checkins, encoding='utf-8') as fp:
             checkin_offset = normalize_offset(row[3])
 
             checkin_timestamp = ciso8601.parse_datetime(checkin_datetime + checkin_offset)
+
+            initial_users.add(checkin_user)
 
             assert checkin_venue in venues_set
 
@@ -208,6 +212,7 @@ tot_checkins = len(sorted_checkins)
 num_same_venue = 0
 num_invalid_time = 0
 num_invalid_speed = 0
+num_invalid_total = 0
 
 last_user = None
 last_checkin = None
@@ -247,6 +252,7 @@ for current_checkin in sorted_checkins:
 
         # filters are checked separately
         if invalid_checkin:
+            num_invalid_total += 1
             last_checkin = current_checkin
 
             # skip the current checkin
@@ -274,6 +280,7 @@ for current_checkin in sorted_checkins:
 
 print("Number of original checkins:", tot_checkins)
 print("Number of original venues:", len(venues))
+print("Number of original users:", len(list(initial_users)))
 
 sorted_timestamp = sorted(checkins, key=lambda x: x['timestamp'])
 original_timedelta = sorted_timestamp[-1]['timestamp'] - sorted_timestamp[0]['timestamp']
@@ -287,8 +294,8 @@ checkins_per_path = np.array(checkins_per_path)
 np.save('checkins_per_path.npy', checkins_per_path)
 print("Number of checkins:", np.sum(checkins_per_path))
 print("Number of trails:", len(checkins_per_path))
-
 print("Number of venues:", len(list(final_venues)))
+print("Number of users:", user_counter)
 print("Number of cities:", len(list(final_cities)))
 
 if initial_timestamp is not None:
@@ -301,3 +308,4 @@ assert len(checkins_per_path) == len(timedelta_per_path)
 print("Number of checkins with invalid venue:", num_same_venue)
 print("Number of checkins with invalid time:", num_invalid_time)
 print("Number of checkins with invalid speed:", num_invalid_speed)
+print("Number of invalid checkins:", num_invalid_total)
