@@ -1,4 +1,5 @@
 import csv
+import io
 from datetime import timedelta
 
 import ciso8601
@@ -33,7 +34,7 @@ venues_set = set(venues_list)
 assert len(list(venues_set)) == len(venues_list)
 print("Loading", len(venues), "venues...")
 
-# reverse geocode the cities
+# reverse geocode the venues
 coords = []
 
 for venue_id in venues_list:
@@ -41,7 +42,8 @@ for venue_id in venues_list:
     venue_lon = venues[venue_id]['lon']
     coords.append((venue_lat, venue_lon))
 
-venues_rg = rg.search(coords)
+geo = rg.RGeocoder(mode=2, verbose=True, stream=io.StringIO(open('cities.csv', encoding='utf-8').read()))
+venues_rg = geo.query(coords)
 
 for index, venue_id in enumerate(venues_list):
     venues[venue_id]['city'] = venues_rg[index]['name']
