@@ -148,7 +148,7 @@ print("Loading", len(checkins), "checkins...")
 sorted_checkins = sorted(checkins, key=lambda x: (x['user'], x['timestamp']))
 
 fp_out = open(f_out, 'w', encoding='utf8', newline='')
-writer = csv.writer(fp_out, delimiter='\t')
+writer = csv.writer(fp_out, delimiter=',')
 # write the header
 writer.writerow(["trail_id", "user_id", "venue_id", "venue_category",
                  "venue_schema", "venue_city", "venue_country", "timestamp"])
