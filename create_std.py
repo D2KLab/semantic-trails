@@ -14,6 +14,7 @@ f_checkins = "checkins.csv"
 # load the venues
 venues = {}
 venues_list = []
+venues_cat = set()
 
 with open(f_venues, encoding='utf-8') as fp:
     reader = csv.reader(fp, delimiter='\t')
@@ -22,9 +23,12 @@ with open(f_venues, encoding='utf-8') as fp:
         venue_id = row[0]
         venue_lat = float(row[1])
         venue_lon = float(row[2])
-        venue_cat = row[3]
+        # ignore invalid characters
+        venue_cat = row[3].replace("\x1a", "")
 
         venues_list.append(venue_id)
+        venues_cat.add(venue_cat)
+
         venues[venue_id] = {'id': venue_id,
                             'lat': venue_lat,
                             'lon': venue_lon,
@@ -33,6 +37,26 @@ with open(f_venues, encoding='utf-8') as fp:
 venues_set = set(venues_list)
 assert len(list(venues_set)) == len(venues_list)
 print("Loading", len(venues), "venues...")
+
+# load the category mapping
+cat_mapping = {}
+
+with open('mapping.csv', encoding='utf-8') as fp:
+    reader = csv.reader(fp, delimiter=',')
+
+    for row in reader:
+        foursquare_cat = row[0]
+        schema_cat = row[1]
+        cat_mapping[foursquare_cat] = schema_cat
+
+cat_missing = False
+
+for venue_cat in venues_cat:
+    if venue_cat not in cat_mapping:
+        print(venue_cat)
+        cat_missing = True
+
+assert cat_missing is False
 
 # reverse geocode the venues
 coords = []
@@ -86,7 +110,7 @@ def normalize_offset(offset):
         int_offset *= -1
     else:
         sign_offset = "+"
-    
+
     hour_offset = int_offset // 60
     minute_offset = int_offset % 60
 
@@ -123,7 +147,11 @@ print("Loading", len(checkins), "checkins...")
 # sort checkins by user and timestamp
 sorted_checkins = sorted(checkins, key=lambda x: (x['user'], x['timestamp']))
 
-fp_out = open(f_out, 'w', encoding='utf8')
+fp_out = open(f_out, 'w', encoding='utf8', newline='')
+writer = csv.writer(fp_out, delimiter='\t')
+# write the header
+writer.writerow(["trail_id", "user_id", "venue_id", "venue_category",
+                 "venue_schema", "venue_city", "venue_country", "timestamp"])
 
 sequence_counter = 0
 user_counter = 0
@@ -172,15 +200,14 @@ def save_checkin(checkin, new_path=False):
     final_venues.add(checkin['venue'])
     final_cities.add(venues[checkin['venue']]['city'])
 
-    line = ''
-    line += str(sequence_counter) + '\t'
-    line += str(users_out[checkin['user']]) + '\t'
-    line += str(checkin['venue']) + '\t'
-    line += str(venues[checkin['venue']]['cat']) + '\t'
-    line += str(venues[checkin['venue']]['city']) + '\t'
-    line += str(venues[checkin['venue']]['cc']) + '\t'
-    line += checkin['timestamp'].replace(second=0).isoformat() + '\n'
-    fp_out.write(line)
+    writer.writerow([sequence_counter,
+                     users_out[checkin['user']],
+                     "http://foursquare.com/v/" + checkin['venue'],
+                     venues[checkin['venue']]['cat'],
+                     cat_mapping[venues[checkin['venue']]['cat']],
+                     venues[checkin['venue']]['city'],
+                     venues[checkin['venue']]['cc'],
+                     checkin['timestamp'].replace(second=0).isoformat()])
 
 
 def invalid_speed(last_checkin, current_checkin):
@@ -241,12 +268,12 @@ for current_checkin in sorted_checkins:
         if current_checkin['venue'] == last_checkin['venue']:
             num_same_venue += 1
             invalid_checkin = True
-        
+
         # check if the current checkin was created in less than a minute from the last one
         if current_checkin['timestamp'] < last_checkin['timestamp'] + timedelta(minutes=1):
             num_invalid_time += 1
             invalid_checkin = True
-        
+
         # check if the user is moving too fast
         if invalid_speed(last_checkin, current_checkin):
             num_invalid_speed += 1
