@@ -1,4 +1,5 @@
 import csv
+import pickle as pkl
 from json.decoder import JSONDecodeError
 
 from SPARQLWrapper import SPARQLWrapper, JSON
@@ -27,11 +28,12 @@ wikidata = {}
 sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
 
 query = """
-SELECT ?geo_id ?item ?country
-WHERE 
+SELECT ?geo_id ?item ?country ?population
+WHERE
 {
   ?item wdt:P1566 ?geo_id .
   ?item wdt:P17 ?country .
+  OPTIONAL { ?item wdt:P1082 ?population }
 }
 """
 
@@ -57,12 +59,22 @@ while True:
         geo_id = result['geo_id']['value']
         item = result['item']['value']
         country = result['country']['value']
+        try:
+            population = result['population']['value']
+        except KeyError:
+            population = None
 
-        wikidata[geo_id] = {'geo_id': geo_id,
-                            'item': item,
-                            'country': country}
+        # consider only the first result
+        if geo_id not in wikidata:
+            wikidata[geo_id] = {'geo_id': geo_id,
+                                'item': item,
+                                'country': country,
+                                'population': population}
 
 print("Downloaded", len(wikidata), "resources")
+
+with open('wikidata.pkl', 'wb') as fp:
+    pkl.dump(wikidata, fp, protocol=pkl.HIGHEST_PROTOCOL)
 
 with open('cities.csv', 'w', encoding='utf8', newline='') as fp:
     writer = csv.writer(fp)
@@ -76,3 +88,18 @@ with open('cities.csv', 'w', encoding='utf8', newline='') as fp:
             name = wikidata[geo_id]['item']
             country = wikidata[geo_id]['country']
             writer.writerow([lat, long, name, "", "", country])
+
+with open('population.csv', 'w', encoding='utf8', newline='') as fp:
+    writer = csv.writer(fp)
+
+    # for all the cities
+    for geo_id in geo_names:
+        if geo_id in wikidata:
+            name = wikidata[geo_id]['item']
+            population = wikidata[geo_id]['population']
+
+            if isinstance(population, str):
+                population = population.replace(".", "")
+
+            if population is not None:
+                writer.writerow([name, population])
