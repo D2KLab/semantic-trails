@@ -10,7 +10,7 @@ Comedy Club,http://schema.org/ComedyClub
 Concert Hall,http://schema.org/MusicVenue
 Country Dance Club,http://schema.org/LocalBusiness
 Disc Golf,http://schema.org/SportsActivityLocation
-Exhibit,http://schema.org/ExhibitionEvent
+Exhibit,http://schema.org/EntertainmentBusiness
 General Entertainment,http://schema.org/EntertainmentBusiness
 Go Kart Track,http://schema.org/SportsActivityLocation
 Historic Site,http://schema.org/LandmarksOrHistoricalBuildings
@@ -39,14 +39,14 @@ Indie Theater,http://schema.org/PerformingArtsTheater
 Opera House,http://schema.org/PerformingArtsTheater
 Theater,http://schema.org/PerformingArtsTheater
 Pool Hall,http://schema.org/SportsActivityLocation
-Public Art,http://schema.org/LandmarksOrHistoricalBuildings
+Public Art,http://schema.org/EntertainmentBusiness
 Outdoor Sculpture,http://schema.org/LandmarksOrHistoricalBuildings
-Street Art,http://schema.org/LandmarksOrHistoricalBuildings
+Street Art,http://schema.org/EntertainmentBusiness
 Racecourse,http://schema.org/SportsActivityLocation
 Racetrack,http://schema.org/SportsActivityLocation
 Roller Rink,http://schema.org/SportsActivityLocation
-Salsa Club,http://schema.org/LocalBusiness
-Samba School,http://schema.org/LocalBusiness
+Salsa Club,http://schema.org/EntertainmentBusiness
+Samba School,http://schema.org/EntertainmentBusiness
 Stadium,http://schema.org/StadiumOrArena
 Baseball Stadium,http://schema.org/StadiumOrArena
 Basketball Stadium,http://schema.org/StadiumOrArena
@@ -63,22 +63,22 @@ Tour Provider,http://schema.org/AmusementPark
 Water Park,http://schema.org/AmusementPark
 Zoo,http://schema.org/Zoo
 Zoo Exhibit,http://schema.org/Zoo
-College & University,http://schema.org/CollegeOrUniversity
-College Academic Building,http://schema.org/CollegeOrUniversity
-College Arts Building,http://schema.org/CollegeOrUniversity
-College Communications Building,http://schema.org/CollegeOrUniversity
-College Engineering Building,http://schema.org/CollegeOrUniversity
-College History Building,http://schema.org/CollegeOrUniversity
-College Math Building,http://schema.org/CollegeOrUniversity
-College Science Building,http://schema.org/CollegeOrUniversity
-College Technology Building,http://schema.org/CollegeOrUniversity
-College Administrative Building,http://schema.org/CollegeOrUniversity
+College & University,http://schema.org/CivicStructure
+College Academic Building,http://schema.org/CivicStructure
+College Arts Building,http://schema.org/CivicStructure
+College Communications Building,http://schema.org/CivicStructure
+College Engineering Building,http://schema.org/CivicStructure
+College History Building,http://schema.org/CivicStructure
+College Math Building,http://schema.org/CivicStructure
+College Science Building,http://schema.org/CivicStructure
+College Technology Building,http://schema.org/CivicStructure
+College Administrative Building,http://schema.org/CivicStructure
 College Auditorium,http://schema.org/MusicVenue
 College Bookstore,http://schema.org/BookStore
 College Cafeteria,http://schema.org/CafeOrCoffeeShop
-College Classroom,http://schema.org/CollegeOrUniversity
+College Classroom,http://schema.org/CivicStructure
 College Gym,http://schema.org/ExerciseGym
-College Lab,http://schema.org/CollegeOrUniversity
+College Lab,http://schema.org/CivicStructure
 College Library,http://schema.org/Library
 College Quad,http://schema.org/CivicStructure
 College Rec Center,http://schema.org/CivicStructure
@@ -93,19 +93,19 @@ College Soccer Field,http://schema.org/StadiumOrArena
 College Tennis Court,http://schema.org/TennisComplex
 College Track,http://schema.org/SportsActivityLocation
 College Theater,http://schema.org/PerformingArtsTheater
-Community College,http://schema.org/CollegeOrUniversity
-Fraternity House,http://schema.org/CollegeOrUniversity
-General College & University,http://schema.org/CollegeOrUniversity
-Law School,http://schema.org/CollegeOrUniversity
-Medical School,http://schema.org/CollegeOrUniversity
-Sorority House,http://schema.org/CollegeOrUniversity
+Community College,http://schema.org/CivicStructure
+Fraternity House,http://schema.org/CivicStructure
+General College & University,http://schema.org/CivicStructure
+Law School,http://schema.org/CivicStructure
+Medical School,http://schema.org/CivicStructure
+Sorority House,http://schema.org/CivicStructure
 Student Center,http://schema.org/CivicStructure
-Trade School,http://schema.org/CollegeOrUniversity
-University,http://schema.org/CollegeOrUniversity
+Trade School,http://schema.org/CivicStructure
+University,http://schema.org/CivicStructure
 Event,http://schema.org/Event
 Christmas Market,http://schema.org/Event
-Conference,http://schema.org/BusinessEvent
-Convention,http://schema.org/BusinessEvent
+Conference,http://schema.org/Event
+Convention,http://schema.org/Event
 Festival,http://schema.org/Festival
 Line / Queue,http://schema.org/Event
 Music Festival,http://schema.org/MusicEvent
@@ -486,9 +486,9 @@ Brewery,http://schema.org/Brewery
 Lounge,http://schema.org/BarOrPub
 Night Market,http://schema.org/FoodEstablishment
 Nightclub,http://schema.org/NightClub
-Other Nightlife,http://schema.org/FoodEstablishment
+Other Nightlife,http://schema.org/LocalBusiness
 Strip Club,http://schema.org/AdultEntertainment
-Outdoors & Recreation,http://schema.org/Park
+Outdoors & Recreation,http://schema.org/Place
 Athletics & Sports,http://schema.org/SportsActivityLocation
 Badminton Court,http://schema.org/SportsActivityLocation
 Baseball Field,http://schema.org/SportsActivityLocation
@@ -555,7 +555,7 @@ Mountain Hut,http://schema.org/Mountain
 Mountain,http://schema.org/Mountain
 National Park,http://schema.org/Park
 Nature Preserve,http://schema.org/Park
-Other Great Outdoors,http://schema.org/Park
+Other Great Outdoors,http://schema.org/Place
 Palace,http://schema.org/CivicStructure
 Park,http://schema.org/Park
 Pedestrian Plaza,http://schema.org/CivicStructure
@@ -664,22 +664,22 @@ Prison,http://schema.org/CivicStructure
 Radio Station,http://schema.org/RadioStation
 Recruiting Agency,http://schema.org/LocalBusiness
 Research Station,http://schema.org/LocalBusiness
-School,http://schema.org/School
-Adult Education Center,http://schema.org/School
-Circus School,http://schema.org/School
-Cooking School,http://schema.org/School
-Driving School,http://schema.org/School
-Elementary School,http://schema.org/School
-Flight School,http://schema.org/School
-High School,http://schema.org/School
-Language School,http://schema.org/School
-Middle School,http://schema.org/School
-Music School,http://schema.org/School
-Nursery School,http://schema.org/School
-Preschool,http://schema.org/School
-Private School,http://schema.org/School
-Religious School,http://schema.org/School
-Swim School,http://schema.org/School
+School,http://schema.org/CivicStructure
+Adult Education Center,http://schema.org/CivicStructure
+Circus School,http://schema.org/CivicStructure
+Cooking School,http://schema.org/CivicStructure
+Driving School,http://schema.org/CivicStructure
+Elementary School,http://schema.org/CivicStructure
+Flight School,http://schema.org/CivicStructure
+High School,http://schema.org/CivicStructure
+Language School,http://schema.org/CivicStructure
+Middle School,http://schema.org/CivicStructure
+Music School,http://schema.org/CivicStructure
+Nursery School,http://schema.org/CivicStructure
+Preschool,http://schema.org/CivicStructure
+Private School,http://schema.org/CivicStructure
+Religious School,http://schema.org/CivicStructure
+Swim School,http://schema.org/CivicStructure
 Social Club,http://schema.org/CivicStructure
 Spiritual Center,http://schema.org/PlaceOfWorship
 Buddhist Temple,http://schema.org/BuddhistTemple
@@ -951,7 +951,7 @@ Stable,http://schema.org/CivicStructure
 Frozen Yogurt,http://schema.org/FoodEstablishment
 Yogurt,http://schema.org/FoodEstablishment
 Trails,http://schema.org/CivicStructure
-Ramen /  Noodle House,http://schema.org/FoodEstablishment
+Ramen / Noodle House,http://schema.org/FoodEstablishment
 Tennis,http://schema.org/TennisComplex
 Ferry,http://schema.org/CivicStructure
 Caf,http://schema.org/CafeOrCoffeeShop
