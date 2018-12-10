@@ -1,7 +1,7 @@
 # Semantic Trails Datasets
 
 This repository contains the code used to generate the Semantic Trails Datasets (STDs).
-You can download the actual datasets from [figshare](https://figshare.com/s/545ff3de8027b1639757).
+You can download the actual datasets from [figshare](https://doi.org/10.6084/m9.figshare.7429076).
 
 ## Cities
 
@@ -21,7 +21,7 @@ The first column represents the Foursquare category, while the second one the co
 
 We constructed the STDs by the means of the `create_std.py` script.
 It requires two input files, `checkins.csv` and `venues.csv` in the same format of the [Global-Scale Check-in Dataset](https://sites.google.com/site/yangdingqi/home/foursquare-dataset).
-The resulting datasets are available on [figshare](https://figshare.com/s/545ff3de8027b1639757), together with a description of the output format.
+The resulting datasets are available on [figshare](https://doi.org/10.6084/m9.figshare.7429076), together with a description of the output format.
 
 ## Team
 
