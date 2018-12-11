@@ -28,5 +28,5 @@ The resulting datasets are available on [figshare](https://doi.org/10.6084/m9.fi
 - Diego Monti <diego.monti@polito.it>
 - Enrico Palumbo <palumbo@ismb.it>
 - Giuseppe Rizzo <giuseppe.rizzo@ismb.it>
-- Raphaël Troncy <troncy@eurecom.fr>
+- Raphaël Troncy <raphael.troncy@eurecom.fr>
 - Maurizio Morisio <maurizio.morisio@polito.it>
