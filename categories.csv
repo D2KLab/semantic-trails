@@ -940,7 +940,7 @@
 ,Hiking Trail,Sentier de randonnée,
 ,Subway,Tramway,
 ,Yogurt,Boutique de yaourts,Yogurteria
-
+OLD CATEGORIES,
 <!--
 Gas Station / Garage ... see lines 798 and 718
 Car Dealership ... see line 717
@@ -957,4 +957,4 @@ Ramen /  Noodle House ... see line 181
 Tennis ... see line 522
 Ferry ... see line 897
 Caf ... see line 221
--->
+-->, ,
