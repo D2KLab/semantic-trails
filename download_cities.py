@@ -42,7 +42,8 @@ limit = 50000
 
 while True:
     try:
-        sparql.setQuery(query + " OFFSET " + str(offset) + " LIMIT " + str(limit))
+        sparql.setQuery(query + " OFFSET " + str(offset) +
+                        " LIMIT " + str(limit))
         sparql.setReturnFormat(JSON)
         results = sparql.query().convert()
     except (EndPointInternalError, JSONDecodeError):
@@ -85,8 +86,10 @@ with open('cities.csv', 'w', encoding='utf8', newline='') as fp:
         if geo_id in wikidata:
             lat = geo_names[geo_id]['lat']
             long = geo_names[geo_id]['long']
-            name = wikidata[geo_id]['item']
-            country = wikidata[geo_id]['country']
+            name = wikidata[geo_id]['item'].replace(
+                "http://www.wikidata.org/entity/", "wd:")
+            country = wikidata[geo_id]['country'].replace(
+                "http://www.wikidata.org/entity/", "wd:")
             writer.writerow([lat, long, name, "", "", country])
 
 with open('population.csv', 'w', encoding='utf8', newline='') as fp:
@@ -95,7 +98,8 @@ with open('population.csv', 'w', encoding='utf8', newline='') as fp:
     # for all the cities
     for geo_id in geo_names:
         if geo_id in wikidata:
-            name = wikidata[geo_id]['item']
+            name = wikidata[geo_id]['item'].replace(
+                "http://www.wikidata.org/entity/", "wd:")
             population = wikidata[geo_id]['population']
 
             if isinstance(population, str):
