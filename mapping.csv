@@ -1,957 +1,957 @@
-Arts & Entertainment,http://schema.org/EntertainmentBusiness
-Amphitheater,http://schema.org/EntertainmentBusiness
-Aquarium,http://schema.org/Aquarium
-Arcade,http://schema.org/EntertainmentBusiness
-Art Gallery,http://schema.org/ArtGallery
-Bowling Alley,http://schema.org/BowlingAlley
-Casino,http://schema.org/Casino
-Circus,http://schema.org/EntertainmentBusiness
-Comedy Club,http://schema.org/ComedyClub
-Concert Hall,http://schema.org/MusicVenue
-Country Dance Club,http://schema.org/LocalBusiness
-Disc Golf,http://schema.org/SportsActivityLocation
-Exhibit,http://schema.org/EntertainmentBusiness
-General Entertainment,http://schema.org/EntertainmentBusiness
-Go Kart Track,http://schema.org/SportsActivityLocation
-Historic Site,http://schema.org/LandmarksOrHistoricalBuildings
-Karaoke Box,http://schema.org/EntertainmentBusiness
-Laser Tag,http://schema.org/EntertainmentBusiness
-Memorial Site,http://schema.org/LandmarksOrHistoricalBuildings
-Mini Golf,http://schema.org/SportsActivityLocation
-Movie Theater,http://schema.org/MovieTheater
-Drive-in Theater,http://schema.org/MovieTheater
-Indie Movie Theater,http://schema.org/MovieTheater
-Multiplex,http://schema.org/MovieTheater
-Museum,http://schema.org/Museum
-Art Museum,http://schema.org/Museum
-Erotic Museum,http://schema.org/Museum
-History Museum,http://schema.org/Museum
-Planetarium,http://schema.org/Museum
-Science Museum,http://schema.org/Museum
-Music Venue,http://schema.org/MusicVenue
-Jazz Club,http://schema.org/MusicVenue
-Piano Bar,http://schema.org/MusicVenue
-Rock Club,http://schema.org/MusicVenue
-Pachinko Parlor,http://schema.org/Casino
-Performing Arts Venue,http://schema.org/PerformingArtsTheater
-Dance Studio,http://schema.org/PerformingArtsTheater
-Indie Theater,http://schema.org/PerformingArtsTheater
-Opera House,http://schema.org/PerformingArtsTheater
-Theater,http://schema.org/PerformingArtsTheater
-Pool Hall,http://schema.org/SportsActivityLocation
-Public Art,http://schema.org/EntertainmentBusiness
-Outdoor Sculpture,http://schema.org/LandmarksOrHistoricalBuildings
-Street Art,http://schema.org/EntertainmentBusiness
-Racecourse,http://schema.org/SportsActivityLocation
-Racetrack,http://schema.org/SportsActivityLocation
-Roller Rink,http://schema.org/SportsActivityLocation
-Salsa Club,http://schema.org/EntertainmentBusiness
-Samba School,http://schema.org/EntertainmentBusiness
-Stadium,http://schema.org/StadiumOrArena
-Baseball Stadium,http://schema.org/StadiumOrArena
-Basketball Stadium,http://schema.org/StadiumOrArena
-Cricket Ground,http://schema.org/StadiumOrArena
-Football Stadium,http://schema.org/StadiumOrArena
-Hockey Arena,http://schema.org/StadiumOrArena
-Rugby Stadium,http://schema.org/StadiumOrArena
-Soccer Stadium,http://schema.org/StadiumOrArena
-Tennis Stadium,http://schema.org/TennisComplex
-Track Stadium,http://schema.org/StadiumOrArena
-Theme Park,http://schema.org/AmusementPark
-Theme Park Ride / Attraction,http://schema.org/AmusementPark
-Tour Provider,http://schema.org/AmusementPark
-Water Park,http://schema.org/AmusementPark
-Zoo,http://schema.org/Zoo
-Zoo Exhibit,http://schema.org/Zoo
-College & University,http://schema.org/CivicStructure
-College Academic Building,http://schema.org/CivicStructure
-College Arts Building,http://schema.org/CivicStructure
-College Communications Building,http://schema.org/CivicStructure
-College Engineering Building,http://schema.org/CivicStructure
-College History Building,http://schema.org/CivicStructure
-College Math Building,http://schema.org/CivicStructure
-College Science Building,http://schema.org/CivicStructure
-College Technology Building,http://schema.org/CivicStructure
-College Administrative Building,http://schema.org/CivicStructure
-College Auditorium,http://schema.org/MusicVenue
-College Bookstore,http://schema.org/BookStore
-College Cafeteria,http://schema.org/CafeOrCoffeeShop
-College Classroom,http://schema.org/CivicStructure
-College Gym,http://schema.org/ExerciseGym
-College Lab,http://schema.org/CivicStructure
-College Library,http://schema.org/Library
-College Quad,http://schema.org/CivicStructure
-College Rec Center,http://schema.org/CivicStructure
-College Residence Hall,http://schema.org/Residence
-College Stadium,http://schema.org/StadiumOrArena
-College Baseball Diamond,http://schema.org/StadiumOrArena
-College Basketball Court,http://schema.org/StadiumOrArena
-College Cricket Pitch,http://schema.org/StadiumOrArena
-College Football Field,http://schema.org/StadiumOrArena
-College Hockey Rink,http://schema.org/StadiumOrArena
-College Soccer Field,http://schema.org/StadiumOrArena
-College Tennis Court,http://schema.org/TennisComplex
-College Track,http://schema.org/SportsActivityLocation
-College Theater,http://schema.org/PerformingArtsTheater
-Community College,http://schema.org/CivicStructure
-Fraternity House,http://schema.org/CivicStructure
-General College & University,http://schema.org/CivicStructure
-Law School,http://schema.org/CivicStructure
-Medical School,http://schema.org/CivicStructure
-Sorority House,http://schema.org/CivicStructure
-Student Center,http://schema.org/CivicStructure
-Trade School,http://schema.org/CivicStructure
-University,http://schema.org/CivicStructure
-Event,http://schema.org/Event
-Christmas Market,http://schema.org/Event
-Conference,http://schema.org/Event
-Convention,http://schema.org/Event
-Festival,http://schema.org/Festival
-Line / Queue,http://schema.org/Event
-Music Festival,http://schema.org/MusicEvent
-Other Event,http://schema.org/Event
-Parade,http://schema.org/Event
-Sporting Event,http://schema.org/SportsEvent
-Stoop Sale,http://schema.org/SaleEvent
-Street Fair,http://schema.org/Event
-Trade Fair,http://schema.org/ExhibitionEvent
-Food,http://schema.org/FoodEstablishment
-Afghan Restaurant,http://schema.org/Restaurant
-African Restaurant,http://schema.org/Restaurant
-Ethiopian Restaurant,http://schema.org/Restaurant
-American Restaurant,http://schema.org/Restaurant
-New American Restaurant,http://schema.org/Restaurant
-Asian Restaurant,http://schema.org/Restaurant
-Burmese Restaurant,http://schema.org/Restaurant
-Cambodian Restaurant,http://schema.org/Restaurant
-Chinese Restaurant,http://schema.org/Restaurant
-Anhui Restaurant,http://schema.org/Restaurant
-Beijing Restaurant,http://schema.org/Restaurant
-Cantonese Restaurant,http://schema.org/Restaurant
-Cha Chaan Teng,http://schema.org/Restaurant
-Chinese Aristocrat Restaurant,http://schema.org/Restaurant
-Chinese Breakfast Place,http://schema.org/FoodEstablishment
-Dim Sum Restaurant,http://schema.org/Restaurant
-Dongbei Restaurant,http://schema.org/Restaurant
-Fujian Restaurant,http://schema.org/Restaurant
-Guizhou Restaurant,http://schema.org/Restaurant
-Hainan Restaurant,http://schema.org/Restaurant
-Hakka Restaurant,http://schema.org/Restaurant
-Henan Restaurant,http://schema.org/Restaurant
-Hong Kong Restaurant,http://schema.org/Restaurant
-Huaiyang Restaurant,http://schema.org/Restaurant
-Hubei Restaurant,http://schema.org/Restaurant
-Hunan Restaurant,http://schema.org/Restaurant
-Imperial Restaurant,http://schema.org/Restaurant
-Jiangsu Restaurant,http://schema.org/Restaurant
-Jiangxi Restaurant,http://schema.org/Restaurant
-Macanese Restaurant,http://schema.org/Restaurant
-Manchu Restaurant,http://schema.org/Restaurant
-Peking Duck Restaurant,http://schema.org/Restaurant
-Shaanxi Restaurant,http://schema.org/Restaurant
-Shandong Restaurant,http://schema.org/Restaurant
-Shanghai Restaurant,http://schema.org/Restaurant
-Shanxi Restaurant,http://schema.org/Restaurant
-Szechuan Restaurant,http://schema.org/Restaurant
-Taiwanese Restaurant,http://schema.org/Restaurant
-Tianjin Restaurant,http://schema.org/Restaurant
-Xinjiang Restaurant,http://schema.org/Restaurant
-Yunnan Restaurant,http://schema.org/Restaurant
-Zhejiang Restaurant,http://schema.org/Restaurant
-Filipino Restaurant,http://schema.org/Restaurant
-Himalayan Restaurant,http://schema.org/Restaurant
-Hotpot Restaurant,http://schema.org/Restaurant
-Indonesian Restaurant,http://schema.org/Restaurant
-Acehnese Restaurant,http://schema.org/Restaurant
-Balinese Restaurant,http://schema.org/Restaurant
-Betawinese Restaurant,http://schema.org/Restaurant
-Indonesian Meatball Place,http://schema.org/FoodEstablishment
-Javanese Restaurant,http://schema.org/Restaurant
-Manadonese Restaurant,http://schema.org/Restaurant
-Padangnese Restaurant,http://schema.org/Restaurant
-Sundanese Restaurant,http://schema.org/Restaurant
-Japanese Restaurant,http://schema.org/Restaurant
-Donburi Restaurant,http://schema.org/Restaurant
-Japanese Curry Restaurant,http://schema.org/Restaurant
-Kaiseki Restaurant,http://schema.org/Restaurant
-Kushikatsu Restaurant,http://schema.org/Restaurant
-Monjayaki Restaurant,http://schema.org/Restaurant
-Nabe Restaurant,http://schema.org/Restaurant
-Okonomiyaki Restaurant,http://schema.org/Restaurant
-Ramen Restaurant,http://schema.org/Restaurant
-Shabu-Shabu Restaurant,http://schema.org/Restaurant
-Soba Restaurant,http://schema.org/Restaurant
-Sukiyaki Restaurant,http://schema.org/Restaurant
-Sushi Restaurant,http://schema.org/Restaurant
-Takoyaki Place,http://schema.org/FoodEstablishment
-Tempura Restaurant,http://schema.org/Restaurant
-Tonkatsu Restaurant,http://schema.org/Restaurant
-Udon Restaurant,http://schema.org/Restaurant
-Unagi Restaurant,http://schema.org/Restaurant
-Wagashi Place,http://schema.org/FoodEstablishment
-Yakitori Restaurant,http://schema.org/Restaurant
-Yoshoku Restaurant,http://schema.org/Restaurant
-Korean Restaurant,http://schema.org/Restaurant
-Bossam/Jokbal Restaurant,http://schema.org/Restaurant
-Bunsik Restaurant,http://schema.org/Restaurant
-Gukbap Restaurant,http://schema.org/Restaurant
-Janguh Restaurant,http://schema.org/Restaurant
-Samgyetang Restaurant,http://schema.org/Restaurant
-Malay Restaurant,http://schema.org/Restaurant
-Mamak Restaurant,http://schema.org/Restaurant
-Mongolian Restaurant,http://schema.org/Restaurant
-Noodle House,http://schema.org/Restaurant
-Satay Restaurant,http://schema.org/Restaurant
-Thai Restaurant,http://schema.org/Restaurant
-Som Tum Restaurant,http://schema.org/Restaurant
-Tibetan Restaurant,http://schema.org/Restaurant
-Vietnamese Restaurant,http://schema.org/Restaurant
-Australian Restaurant,http://schema.org/Restaurant
-Austrian Restaurant,http://schema.org/Restaurant
-BBQ Joint,http://schema.org/Restaurant
-Bagel Shop,http://schema.org/Bakery
-Bakery,http://schema.org/Bakery
-Belgian Restaurant,http://schema.org/Restaurant
-Bistro,http://schema.org/FoodEstablishment
-Breakfast Spot,http://schema.org/FoodEstablishment
-Bubble Tea Shop,http://schema.org/FoodEstablishment
-Buffet,http://schema.org/FoodEstablishment
-Burger Joint,http://schema.org/FoodEstablishment
-Cafeteria,http://schema.org/CafeOrCoffeeShop
-Café,http://schema.org/CafeOrCoffeeShop
-Cajun / Creole Restaurant,http://schema.org/Restaurant
-Caribbean Restaurant,http://schema.org/Restaurant
-Cuban Restaurant,http://schema.org/Restaurant
-Caucasian Restaurant,http://schema.org/Restaurant
-Coffee Shop,http://schema.org/CafeOrCoffeeShop
-Comfort Food Restaurant,http://schema.org/Restaurant
-Creperie,http://schema.org/FoodEstablishment
-Czech Restaurant,http://schema.org/Restaurant
-Deli / Bodega,http://schema.org/FoodEstablishment
-Dessert Shop,http://schema.org/FoodEstablishment
-Cupcake Shop,http://schema.org/FoodEstablishment
-Frozen Yogurt Shop,http://schema.org/FoodEstablishment
-Ice Cream Shop,http://schema.org/IceCreamShop
-Pastry Shop,http://schema.org/FoodEstablishment
-Pie Shop,http://schema.org/FoodEstablishment
-Diner,http://schema.org/FoodEstablishment
-Donut Shop,http://schema.org/FoodEstablishment
-Dumpling Restaurant,http://schema.org/Restaurant
-Dutch Restaurant,http://schema.org/Restaurant
-Eastern European Restaurant,http://schema.org/Restaurant
-Belarusian Restaurant,http://schema.org/Restaurant
-Bosnian Restaurant,http://schema.org/Restaurant
-Bulgarian Restaurant,http://schema.org/Restaurant
-Romanian Restaurant,http://schema.org/Restaurant
-Tatar Restaurant,http://schema.org/Restaurant
-English Restaurant,http://schema.org/Restaurant
-Falafel Restaurant,http://schema.org/Restaurant
-Fast Food Restaurant,http://schema.org/Restaurant
-Fish & Chips Shop,http://schema.org/FoodEstablishment
-Fondue Restaurant,http://schema.org/Restaurant
-Food Court,http://schema.org/FoodEstablishment
-Food Stand,http://schema.org/FoodEstablishment
-Food Truck,http://schema.org/FoodEstablishment
-French Restaurant,http://schema.org/Restaurant
-Alsatian Restaurant,http://schema.org/Restaurant
-Auvergne Restaurant,http://schema.org/Restaurant
-Basque Restaurant,http://schema.org/Restaurant
-Brasserie,http://schema.org/Restaurant
-Breton Restaurant,http://schema.org/Restaurant
-Burgundian Restaurant,http://schema.org/Restaurant
-Catalan Restaurant,http://schema.org/Restaurant
-Ch'ti Restaurant,http://schema.org/Restaurant
-Corsican Restaurant,http://schema.org/Restaurant
-Estaminet,http://schema.org/FoodEstablishment
-Labour Canteen,http://schema.org/FoodEstablishment
-Lyonese Bouchon,http://schema.org/Restaurant
-Norman Restaurant,http://schema.org/Restaurant
-Provençal Restaurant,http://schema.org/Restaurant
-Savoyard Restaurant,http://schema.org/Restaurant
-Southwestern French Restaurant,http://schema.org/Restaurant
-Fried Chicken Joint,http://schema.org/FoodEstablishment
-Friterie,http://schema.org/FoodEstablishment
-Gastropub,http://schema.org/BarOrPub
-German Restaurant,http://schema.org/Restaurant
-Apple Wine Pub,http://schema.org/BarOrPub
-Bavarian Restaurant,http://schema.org/Restaurant
-Bratwurst Joint,http://schema.org/FoodEstablishment
-Currywurst Joint,http://schema.org/FoodEstablishment
-Franconian Restaurant,http://schema.org/Restaurant
-German Pop-Up Restaurant,http://schema.org/Restaurant
-Palatine Restaurant,http://schema.org/Restaurant
-Rhenisch Restaurant,http://schema.org/Restaurant
-Schnitzel Restaurant,http://schema.org/Restaurant
-Silesian Restaurant,http://schema.org/Restaurant
-Swabian Restaurant,http://schema.org/Restaurant
-Gluten-free Restaurant,http://schema.org/Restaurant
-Greek Restaurant,http://schema.org/Restaurant
-Bougatsa Shop,http://schema.org/FoodEstablishment
-Cretan Restaurant,http://schema.org/Restaurant
-Fish Taverna,http://schema.org/Restaurant
-Grilled Meat Restaurant,http://schema.org/Restaurant
-Kafenio,http://schema.org/Restaurant
-Magirio,http://schema.org/Restaurant
-Meze Restaurant,http://schema.org/Restaurant
-Modern Greek Restaurant,http://schema.org/Restaurant
-Ouzeri,http://schema.org/Restaurant
-Patsa Restaurant,http://schema.org/Restaurant
-Souvlaki Shop,http://schema.org/FoodEstablishment
-Taverna,http://schema.org/FoodEstablishment
-Tsipouro Restaurant,http://schema.org/Restaurant
-Halal Restaurant,http://schema.org/Restaurant
-Hawaiian Restaurant,http://schema.org/Restaurant
-Poke Place,http://schema.org/FoodEstablishment
-Hot Dog Joint,http://schema.org/FoodEstablishment
-Hungarian Restaurant,http://schema.org/Restaurant
-Indian Restaurant,http://schema.org/Restaurant
-Andhra Restaurant,http://schema.org/Restaurant
-Awadhi Restaurant,http://schema.org/Restaurant
-Bengali Restaurant,http://schema.org/Restaurant
-Chaat Place,http://schema.org/FoodEstablishment
-Chettinad Restaurant,http://schema.org/Restaurant
-Dhaba,http://schema.org/FoodEstablishment
-Dosa Place,http://schema.org/FoodEstablishment
-Goan Restaurant,http://schema.org/Restaurant
-Gujarati Restaurant,http://schema.org/Restaurant
-Hyderabadi Restaurant,http://schema.org/Restaurant
-Indian Chinese Restaurant,http://schema.org/Restaurant
-Indian Sweet Shop,http://schema.org/FoodEstablishment
-Irani Cafe,http://schema.org/CafeOrCoffeeShop
-Jain Restaurant,http://schema.org/Restaurant
-Karnataka Restaurant,http://schema.org/Restaurant
-Kerala Restaurant,http://schema.org/Restaurant
-Maharashtrian Restaurant,http://schema.org/Restaurant
-Mughlai Restaurant,http://schema.org/Restaurant
-Multicuisine Indian Restaurant,http://schema.org/Restaurant
-North Indian Restaurant,http://schema.org/Restaurant
-Northeast Indian Restaurant,http://schema.org/Restaurant
-Parsi Restaurant,http://schema.org/Restaurant
-Punjabi Restaurant,http://schema.org/Restaurant
-Rajasthani Restaurant,http://schema.org/Restaurant
-South Indian Restaurant,http://schema.org/Restaurant
-Udupi Restaurant,http://schema.org/Restaurant
-Irish Pub,http://schema.org/BarOrPub
-Italian Restaurant,http://schema.org/Restaurant
-Abruzzo Restaurant,http://schema.org/Restaurant
-Agriturismo,http://schema.org/FoodEstablishment
-Aosta Restaurant,http://schema.org/Restaurant
-Basilicata Restaurant,http://schema.org/Restaurant
-Calabria Restaurant,http://schema.org/Restaurant
-Campanian Restaurant,http://schema.org/Restaurant
-Emilia Restaurant,http://schema.org/Restaurant
-Friuli Restaurant,http://schema.org/Restaurant
-Ligurian Restaurant,http://schema.org/Restaurant
-Lombard Restaurant,http://schema.org/Restaurant
-Malga,http://schema.org/FoodEstablishment
-Marche Restaurant,http://schema.org/Restaurant
-Molise Restaurant,http://schema.org/Restaurant
-Piadineria,http://schema.org/FoodEstablishment
-Piedmontese Restaurant,http://schema.org/Restaurant
-Puglia Restaurant,http://schema.org/Restaurant
-Romagna Restaurant,http://schema.org/Restaurant
-Roman Restaurant,http://schema.org/Restaurant
-Sardinian Restaurant,http://schema.org/Restaurant
-Sicilian Restaurant,http://schema.org/Restaurant
-South Tyrolean Restaurant,http://schema.org/Restaurant
-Trattoria/Osteria,http://schema.org/Restaurant
-Trentino Restaurant,http://schema.org/Restaurant
-Tuscan Restaurant,http://schema.org/Restaurant
-Umbrian Restaurant,http://schema.org/Restaurant
-Veneto Restaurant,http://schema.org/Restaurant
-Jewish Restaurant,http://schema.org/Restaurant
-Kosher Restaurant,http://schema.org/Restaurant
-Juice Bar,http://schema.org/BarOrPub
-Kebab Restaurant,http://schema.org/Restaurant
-Latin American Restaurant,http://schema.org/Restaurant
-Arepa Restaurant,http://schema.org/Restaurant
-Empanada Restaurant,http://schema.org/Restaurant
-Salvadoran Restaurant,http://schema.org/Restaurant
-South American Restaurant,http://schema.org/Restaurant
-Argentinian Restaurant,http://schema.org/Restaurant
-Brazilian Restaurant,http://schema.org/Restaurant
-Acai House,http://schema.org/FoodEstablishment
-Baiano Restaurant,http://schema.org/Restaurant
-Central Brazilian Restaurant,http://schema.org/Restaurant
-Churrascaria,http://schema.org/FoodEstablishment
-Empada House,http://schema.org/FoodEstablishment
-Goiano Restaurant,http://schema.org/Restaurant
-Mineiro Restaurant,http://schema.org/Restaurant
-Northeastern Brazilian Restaurant,http://schema.org/Restaurant
-Northern Brazilian Restaurant,http://schema.org/Restaurant
-Pastelaria,http://schema.org/FoodEstablishment
-Southeastern Brazilian Restaurant,http://schema.org/Restaurant
-Southern Brazilian Restaurant,http://schema.org/Restaurant
-Tapiocaria,http://schema.org/FoodEstablishment
-Colombian Restaurant,http://schema.org/Restaurant
-Peruvian Restaurant,http://schema.org/Restaurant
-Venezuelan Restaurant,http://schema.org/Restaurant
-Mac & Cheese Joint,http://schema.org/FoodEstablishment
-Mediterranean Restaurant,http://schema.org/Restaurant
-Moroccan Restaurant,http://schema.org/Restaurant
-Mexican Restaurant,http://schema.org/Restaurant
-Botanero,http://schema.org/FoodEstablishment
-Burrito Place,http://schema.org/FoodEstablishment
-Taco Place,http://schema.org/FoodEstablishment
-Tex-Mex Restaurant,http://schema.org/Restaurant
-Yucatecan Restaurant,http://schema.org/Restaurant
-Middle Eastern Restaurant,http://schema.org/Restaurant
-Egyptian Restaurant,http://schema.org/Restaurant
-Iraqi Restaurant,http://schema.org/Restaurant
-Israeli Restaurant,http://schema.org/Restaurant
-Kurdish Restaurant,http://schema.org/Restaurant
-Lebanese Restaurant,http://schema.org/Restaurant
-Persian Restaurant,http://schema.org/Restaurant
-Ash and Haleem Place,http://schema.org/FoodEstablishment
-Dizi Place,http://schema.org/FoodEstablishment
-Gilaki Restaurant,http://schema.org/Restaurant
-Jegaraki,http://schema.org/FoodEstablishment
-Tabbakhi,http://schema.org/FoodEstablishment
-Shawarma Place,http://schema.org/FoodEstablishment
-Syrian Restaurant,http://schema.org/Restaurant
-Yemeni Restaurant,http://schema.org/Restaurant
-Modern European Restaurant,http://schema.org/Restaurant
-Molecular Gastronomy Restaurant,http://schema.org/Restaurant
-Pakistani Restaurant,http://schema.org/Restaurant
-Pet Café,http://schema.org/CafeOrCoffeeShop
-Pizza Place,http://schema.org/FoodEstablishment
-Polish Restaurant,http://schema.org/Restaurant
-Portuguese Restaurant,http://schema.org/Restaurant
-Poutine Place,http://schema.org/FoodEstablishment
-Restaurant,http://schema.org/Restaurant
-Russian Restaurant,http://schema.org/Restaurant
-Blini House,http://schema.org/FoodEstablishment
-Pelmeni House,http://schema.org/FoodEstablishment
-Salad Place,http://schema.org/FoodEstablishment
-Sandwich Place,http://schema.org/FoodEstablishment
-Scandinavian Restaurant,http://schema.org/Restaurant
-Scottish Restaurant,http://schema.org/Restaurant
-Seafood Restaurant,http://schema.org/Restaurant
-Slovak Restaurant,http://schema.org/Restaurant
-Snack Place,http://schema.org/FoodEstablishment
-Soup Place,http://schema.org/FoodEstablishment
-Southern / Soul Food Restaurant,http://schema.org/Restaurant
-Spanish Restaurant,http://schema.org/Restaurant
-Paella Restaurant,http://schema.org/Restaurant
-Tapas Restaurant,http://schema.org/Restaurant
-Sri Lankan Restaurant,http://schema.org/Restaurant
-Steakhouse,http://schema.org/FoodEstablishment
-Swiss Restaurant,http://schema.org/Restaurant
-Tea Room,http://schema.org/FoodEstablishment
-Theme Restaurant,http://schema.org/Restaurant
-Truck Stop,http://schema.org/FoodEstablishment
-Turkish Restaurant,http://schema.org/Restaurant
-Borek Place,http://schema.org/FoodEstablishment
-Cigkofte Place,http://schema.org/FoodEstablishment
-Doner Restaurant,http://schema.org/Restaurant
-Gozleme Place,http://schema.org/FoodEstablishment
-Kofte Place,http://schema.org/FoodEstablishment
-Kokoreç Restaurant,http://schema.org/Restaurant
-Kumpir Restaurant,http://schema.org/Restaurant
-Kumru Restaurant,http://schema.org/Restaurant
-Manti Place,http://schema.org/FoodEstablishment
-Meyhane,http://schema.org/FoodEstablishment
-Pide Place,http://schema.org/FoodEstablishment
-Pilavcı,http://schema.org/FoodEstablishment
-Söğüş Place,http://schema.org/FoodEstablishment
-Tantuni Restaurant,http://schema.org/Restaurant
-Turkish Coffeehouse,http://schema.org/CafeOrCoffeeShop
-Turkish Home Cooking Restaurant,http://schema.org/Restaurant
-Çöp Şiş Place,http://schema.org/FoodEstablishment
-Ukrainian Restaurant,http://schema.org/Restaurant
-Varenyky restaurant,http://schema.org/Restaurant
-West-Ukrainian Restaurant,http://schema.org/Restaurant
-Vegetarian / Vegan Restaurant,http://schema.org/Restaurant
-Wings Joint,http://schema.org/FoodEstablishment
-Nightlife Spot,http://schema.org/FoodEstablishment
-Bar,http://schema.org/BarOrPub
-Beach Bar,http://schema.org/BarOrPub
-Beer Bar,http://schema.org/BarOrPub
-Beer Garden,http://schema.org/BarOrPub
-Champagne Bar,http://schema.org/BarOrPub
-Cocktail Bar,http://schema.org/BarOrPub
-Dive Bar,http://schema.org/BarOrPub
-Gay Bar,http://schema.org/BarOrPub
-Hookah Bar,http://schema.org/BarOrPub
-Hotel Bar,http://schema.org/BarOrPub
-Karaoke Bar,http://schema.org/BarOrPub
-Pub,http://schema.org/BarOrPub
-Sake Bar,http://schema.org/BarOrPub
-Speakeasy,http://schema.org/BarOrPub
-Sports Bar,http://schema.org/BarOrPub
-Tiki Bar,http://schema.org/BarOrPub
-Whisky Bar,http://schema.org/BarOrPub
-Wine Bar,http://schema.org/BarOrPub
-Brewery,http://schema.org/Brewery
-Lounge,http://schema.org/BarOrPub
-Night Market,http://schema.org/FoodEstablishment
-Nightclub,http://schema.org/NightClub
-Other Nightlife,http://schema.org/LocalBusiness
-Strip Club,http://schema.org/AdultEntertainment
-Outdoors & Recreation,http://schema.org/Place
-Athletics & Sports,http://schema.org/SportsActivityLocation
-Badminton Court,http://schema.org/SportsActivityLocation
-Baseball Field,http://schema.org/SportsActivityLocation
-Basketball Court,http://schema.org/SportsActivityLocation
-Bowling Green,http://schema.org/BowlingAlley
-Curling Ice,http://schema.org/SportsActivityLocation
-Golf Course,http://schema.org/GolfCourse
-Golf Driving Range,http://schema.org/GolfCourse
-Gym / Fitness Center,http://schema.org/HealthClub
-Boxing Gym,http://schema.org/ExerciseGym
-Climbing Gym,http://schema.org/ExerciseGym
-Cycle Studio,http://schema.org/ExerciseGym
-Gym Pool,http://schema.org/PublicSwimmingPool
-Gymnastics Gym,http://schema.org/ExerciseGym
-Gym,http://schema.org/ExerciseGym
-Martial Arts Dojo,http://schema.org/ExerciseGym
-Outdoor Gym,http://schema.org/ExerciseGym
-Pilates Studio,http://schema.org/ExerciseGym
-Track,http://schema.org/SportsActivityLocation
-Weight Loss Center,http://schema.org/HealthClub
-Yoga Studio,http://schema.org/ExerciseGym
-Hockey Field,http://schema.org/SportsActivityLocation
-Hockey Rink,http://schema.org/SportsActivityLocation
-Paintball Field,http://schema.org/SportsActivityLocation
-Rugby Pitch,http://schema.org/SportsActivityLocation
-Skate Park,http://schema.org/SportsActivityLocation
-Skating Rink,http://schema.org/SportsActivityLocation
-Soccer Field,http://schema.org/SportsActivityLocation
-Sports Club,http://schema.org/SportsClub
-Squash Court,http://schema.org/SportsActivityLocation
-Tennis Court,http://schema.org/TennisComplex
-Volleyball Court,http://schema.org/SportsActivityLocation
-Bathing Area,http://schema.org/SportsActivityLocation
-Bay,http://schema.org/BodyOfWater
-Beach,http://schema.org/Beach
-Nudist Beach,http://schema.org/Beach
-Surf Spot,http://schema.org/SportsActivityLocation
-Bike Trail,http://schema.org/SportsActivityLocation
-Botanical Garden,http://schema.org/LocalBusiness
-Bridge,http://schema.org/Bridge
-Campground,http://schema.org/RVPark
-Canal Lock,http://schema.org/LocalBusiness
-Canal,http://schema.org/Canal
-Castle,http://schema.org/LandmarksOrHistoricalBuildings
-Cave,http://schema.org/LocalBusiness
-Cemetery,http://schema.org/Cemetery
-Dive Spot,http://schema.org/SportsActivityLocation
-Dog Run,http://schema.org/SportsActivityLocation
-Farm,http://schema.org/LocalBusiness
-Field,http://schema.org/Landform
-Fishing Spot,http://schema.org/SportsActivityLocation
-Forest,http://schema.org/Landform
-Fountain,http://schema.org/CivicStructure
-Garden,http://schema.org/LocalBusiness
-Gun Range,http://schema.org/SportsActivityLocation
-Harbor / Marina,http://schema.org/Landform
-Hill,http://schema.org/Landform
-Hot Spring,http://schema.org/Landform
-Indoor Play Area,http://schema.org/Playground
-Island,http://schema.org/Landform
-Lake,http://schema.org/LakeBodyOfWater
-Lighthouse,http://schema.org/CivicStructure
-Mountain Hut,http://schema.org/Mountain
-Mountain,http://schema.org/Mountain
-National Park,http://schema.org/Park
-Nature Preserve,http://schema.org/Park
-Other Great Outdoors,http://schema.org/Place
-Palace,http://schema.org/CivicStructure
-Park,http://schema.org/Park
-Pedestrian Plaza,http://schema.org/CivicStructure
-Playground,http://schema.org/Playground
-Plaza,http://schema.org/CivicStructure
-Pool,http://schema.org/PublicSwimmingPool
-Rafting,http://schema.org/SportsActivityLocation
-Recreation Center,http://schema.org/CivicStructure
-Reservoir,http://schema.org/Reservoir
-River,http://schema.org/RiverBodyOfWater
-Rock Climbing Spot,http://schema.org/SportsActivityLocation
-Roof Deck,http://schema.org/CivicStructure
-Scenic Lookout,http://schema.org/TouristAttraction
-Sculpture Garden,http://schema.org/LocalBusiness
-Ski Area,http://schema.org/SkiResort
-Apres Ski Bar,http://schema.org/BarOrPub
-Ski Chairlift,http://schema.org/SkiResort
-Ski Chalet,http://schema.org/SkiResort
-Ski Lodge,http://schema.org/SkiResort
-Ski Trail,http://schema.org/SkiResort
-Skydiving Drop Zone,http://schema.org/SportsActivityLocation
-Stables,http://schema.org/SportsActivityLocation
-State / Provincial Park,http://schema.org/Park
-States & Municipalities,http://schema.org/AdministrativeArea
-City,http://schema.org/City
-County,http://schema.org/AdministrativeArea
-Country,http://schema.org/Country
-Neighborhood,http://schema.org/AdministrativeArea
-State,http://schema.org/State
-Town,http://schema.org/AdministrativeArea
-Village,http://schema.org/AdministrativeArea
-Summer Camp,http://schema.org/Campground
-Trail,http://schema.org/SportsActivityLocation
-Tree,http://schema.org/TouristAttraction
-Vineyard,http://schema.org/Landform
-Volcano,http://schema.org/Volcano
-Waterfall,http://schema.org/Waterfall
-Waterfront,http://schema.org/TouristAttraction
-Well,http://schema.org/CivicStructure
-Windmill,http://schema.org/CivicStructure
-Professional & Other Places,http://schema.org/ProfessionalService
-Animal Shelter,http://schema.org/AnimalShelter
-Art Studio,http://schema.org/LocalBusiness
-Auditorium,http://schema.org/MusicVenue
-Ballroom,http://schema.org/LocalBusiness
-Building,http://schema.org/CivicStructure
-Business Center,http://schema.org/LocalBusiness
-Club House,http://schema.org/EntertainmentBusiness
-Community Center,http://schema.org/CivicStructure
-Convention Center,http://schema.org/EventVenue
-Meeting Room,http://schema.org/CivicStructure
-Cultural Center,http://schema.org/CivicStructure
-Distillery,http://schema.org/FoodEstablishment
-Distribution Center,http://schema.org/LocalBusiness
-Event Space,http://schema.org/EventVenue
-Outdoor Event Space,http://schema.org/EventVenue
-Factory,http://schema.org/LocalBusiness
-Fair,http://schema.org/EventVenue
-Funeral Home,http://schema.org/LocalBusiness
-Government Building,http://schema.org/GovernmentOffice
-Capitol Building,http://schema.org/LegislativeBuilding
-City Hall,http://schema.org/CityHall
-Courthouse,http://schema.org/Courthouse
-Embassy / Consulate,http://schema.org/Embassy
-Fire Station,http://schema.org/FireStation
-Monument / Landmark,http://schema.org/LandmarksOrHistoricalBuildings
-Police Station,http://schema.org/PoliceStation
-Town Hall,http://schema.org/CityHall
-Industrial Estate,http://schema.org/LocalBusiness
-Laboratory,http://schema.org/LocalBusiness
-Library,http://schema.org/Library
-Medical Center,http://schema.org/LocalBusiness
-Acupuncturist,http://schema.org/LocalBusiness
-Alternative Healer,http://schema.org/LocalBusiness
-Chiropractor,http://schema.org/LocalBusiness
-Dentist's Office,http://schema.org/Dentist
-Doctor's Office,http://schema.org/LocalBusiness
-Emergency Room,http://schema.org/EmergencyService
-Eye Doctor,http://schema.org/LocalBusiness
-Hospital,http://schema.org/Hospital
-Hospital Ward,http://schema.org/Hospital
-Maternity Clinic,http://schema.org/LocalBusiness
-Medical Lab,http://schema.org/LocalBusiness
-Mental Health Office,http://schema.org/LocalBusiness
-Nutritionist,http://schema.org/LocalBusiness
-Physical Therapist,http://schema.org/LocalBusiness
-Rehab Center,http://schema.org/LocalBusiness
-Urgent Care Center,http://schema.org/EmergencyService
-Veterinarian,http://schema.org/LocalBusiness
-Military Base,http://schema.org/DefenceEstablishment
-Non-Profit,http://schema.org/LocalBusiness
-Observatory,http://schema.org/LocalBusiness
-Office,http://schema.org/LocalBusiness
-Advertising Agency,http://schema.org/LocalBusiness
-Campaign Office,http://schema.org/LocalBusiness
-Conference Room,http://schema.org/LocalBusiness
-Corporate Amenity,http://schema.org/LocalBusiness
-Corporate Cafeteria,http://schema.org/CafeOrCoffeeShop
-Corporate Coffee Shop,http://schema.org/CafeOrCoffeeShop
-Coworking Space,http://schema.org/LocalBusiness
-Tech Startup,http://schema.org/LocalBusiness
-Parking,http://schema.org/ParkingFacility
-Post Office,http://schema.org/PostOffice
-Power Plant,http://schema.org/LocalBusiness
-Prison,http://schema.org/CivicStructure
-Radio Station,http://schema.org/RadioStation
-Recruiting Agency,http://schema.org/LocalBusiness
-Research Station,http://schema.org/LocalBusiness
-School,http://schema.org/CivicStructure
-Adult Education Center,http://schema.org/CivicStructure
-Circus School,http://schema.org/CivicStructure
-Cooking School,http://schema.org/CivicStructure
-Driving School,http://schema.org/CivicStructure
-Elementary School,http://schema.org/CivicStructure
-Flight School,http://schema.org/CivicStructure
-High School,http://schema.org/CivicStructure
-Language School,http://schema.org/CivicStructure
-Middle School,http://schema.org/CivicStructure
-Music School,http://schema.org/CivicStructure
-Nursery School,http://schema.org/CivicStructure
-Preschool,http://schema.org/CivicStructure
-Private School,http://schema.org/CivicStructure
-Religious School,http://schema.org/CivicStructure
-Swim School,http://schema.org/CivicStructure
-Social Club,http://schema.org/CivicStructure
-Spiritual Center,http://schema.org/PlaceOfWorship
-Buddhist Temple,http://schema.org/BuddhistTemple
-Cemevi,http://schema.org/PlaceOfWorship
-Church,http://schema.org/Church
-Confucian Temple,http://schema.org/PlaceOfWorship
-Hindu Temple,http://schema.org/HinduTemple
-Kingdom Hall,http://schema.org/PlaceOfWorship
-Monastery,http://schema.org/PlaceOfWorship
-Mosque,http://schema.org/Mosque
-Prayer Room,http://schema.org/PlaceOfWorship
-Shrine,http://schema.org/PlaceOfWorship
-Sikh Temple,http://schema.org/PlaceOfWorship
-Synagogue,http://schema.org/Synagogue
-Temple,http://schema.org/PlaceOfWorship
-Terreiro,http://schema.org/PlaceOfWorship
-TV Station,http://schema.org/TelevisionStation
-Voting Booth,http://schema.org/CivicStructure
-Warehouse,http://schema.org/LocalBusiness
-Waste Facility,http://schema.org/RecyclingCenter
-Wedding Hall,http://schema.org/CivicStructure
-Winery,http://schema.org/Winery
-Residence,http://schema.org/Residence
-Assisted Living,http://schema.org/Accommodation
-Home (private),http://schema.org/House
-Housing Development,http://schema.org/ApartmentComplex
-Residential Building (Apartment / Condo),http://schema.org/ApartmentComplex
-Trailer Park,http://schema.org/RVPark
-Shop & Service,http://schema.org/LocalBusiness
-ATM,http://schema.org/AutomatedTeller
-Adult Boutique,http://schema.org/Store
-Antique Shop,http://schema.org/Store
-Arts & Crafts Store,http://schema.org/Store
-Astrologer,http://schema.org/LocalBusiness
-Auto Dealership,http://schema.org/AutoDealer
-Auto Garage,http://schema.org/AutoRepair
-Auto Workshop,http://schema.org/AutoRepair
-Automotive Shop,http://schema.org/AutoPartsStore
-Baby Store,http://schema.org/Store
-Bank,http://schema.org/BankOrCreditUnion
-Bath House,http://schema.org/CivicStructure
-Batik Shop,http://schema.org/Store
-Betting Shop,http://schema.org/Store
-Big Box Store,http://schema.org/DepartmentStore
-Bike Shop,http://schema.org/BikeStore
-Board Shop,http://schema.org/SportingGoodsStore
-Bookstore,http://schema.org/BookStore
-Bridal Shop,http://schema.org/ClothingStore
-Business Service,http://schema.org/ProfessionalService
-Camera Store,http://schema.org/ElectronicsStore
-Candy Store,http://schema.org/GroceryStore
-Car Wash,http://schema.org/AutoWash
-Carpet Store,http://schema.org/HomeGoodsStore
-Check Cashing Service,http://schema.org/FinancialService
-Child Care Service,http://schema.org/ChildCare
-Daycare,http://schema.org/ChildCare
-Chocolate Shop,http://schema.org/GroceryStore
-Clothing Store,http://schema.org/ClothingStore
-Accessories Store,http://schema.org/ClothingStore
-Boutique,http://schema.org/ClothingStore
-Kids Store,http://schema.org/ClothingStore
-Lingerie Store,http://schema.org/ClothingStore
-Men's Store,http://schema.org/MensClothingStore
-Shoe Store,http://schema.org/ShoeStore
-Women's Store,http://schema.org/ClothingStore
-Comic Shop,http://schema.org/BookStore
-Construction & Landscaping,http://schema.org/HomeAndConstructionBusiness
-Convenience Store,http://schema.org/ConvenienceStore
-Cosmetics Shop,http://schema.org/HealthAndBeautyBusiness
-Costume Shop,http://schema.org/ClothingStore
-Credit Union,http://schema.org/BankOrCreditUnion
-Currency Exchange,http://schema.org/FinancialService
-Department Store,http://schema.org/DepartmentStore
-Design Studio,http://schema.org/LocalBusiness
-Discount Store,http://schema.org/WholesaleStore
-Dive Shop,http://schema.org/SportingGoodsStore
-Drugstore,http://schema.org/Store
-Dry Cleaner,http://schema.org/DryCleaningOrLaundry
-EV Charging Station,http://schema.org/LocalBusiness
-Electronics Store,http://schema.org/ElectronicsStore
-Entertainment Service,http://schema.org/EntertainmentBusiness
-Event Service,http://schema.org/EventVenue
-Fabric Shop,http://schema.org/Store
-Film Studio,http://schema.org/LocalBusiness
-Financial or Legal Service,http://schema.org/LocalBusiness
-Fireworks Store,http://schema.org/Store
-Fishing Store,http://schema.org/GroceryStore
-Flea Market,http://schema.org/Store
-Floating Market,http://schema.org/Store
-Flower Shop,http://schema.org/Florist
-Food & Drink Shop,http://schema.org/GroceryStore
-Beer Store,http://schema.org/GroceryStore
-Butcher,http://schema.org/GroceryStore
-Cheese Shop,http://schema.org/GroceryStore
-Dairy Store,http://schema.org/GroceryStore
-Farmers Market,http://schema.org/GroceryStore
-Fish Market,http://schema.org/GroceryStore
-Food Service,http://schema.org/GroceryStore
-Gourmet Shop,http://schema.org/GroceryStore
-Grocery Store,http://schema.org/GroceryStore
-Health Food Store,http://schema.org/GroceryStore
-Kuruyemişçi,http://schema.org/GroceryStore
-Liquor Store,http://schema.org/LiquorStore
-Organic Grocery,http://schema.org/GroceryStore
-Sausage Shop,http://schema.org/GroceryStore
-Street Food Gathering,http://schema.org/FoodEvent
-Supermarket,http://schema.org/DepartmentStore
-Turşucu,http://schema.org/Store
-Wine Shop,http://schema.org/LiquorStore
-Frame Store,http://schema.org/Store
-Fruit & Vegetable Store,http://schema.org/GroceryStore
-Furniture / Home Store,http://schema.org/FurnitureStore
-Lighting Store,http://schema.org/Store
-Gaming Cafe,http://schema.org/EntertainmentBusiness
-Garden Center,http://schema.org/GardenStore
-Gas Station,http://schema.org/GasStation
-Gift Shop,http://schema.org/Store
-Gun Shop,http://schema.org/Store
-Hardware Store,http://schema.org/HardwareStore
-Health & Beauty Service,http://schema.org/HealthAndBeautyBusiness
-Herbs & Spices Store,http://schema.org/GroceryStore
-Hobby Shop,http://schema.org/HobbyShop
-Home Service,http://schema.org/HomeAndConstructionBusiness
-Hunting Supply,http://schema.org/Store
-IT Services,http://schema.org/LocalBusiness
-Insurance Office,http://schema.org/InsuranceAgency
-Internet Cafe,http://schema.org/InternetCafe
-Jewelry Store,http://schema.org/JewelryStore
-Kitchen Supply Store,http://schema.org/HomeGoodsStore
-Knitting Store,http://schema.org/Store
-Laundromat,http://schema.org/DryCleaningOrLaundry
-Laundry Service,http://schema.org/DryCleaningOrLaundry
-Lawyer,http://schema.org/LegalService
-Leather Goods Store,http://schema.org/ClothingStore
-Locksmith,http://schema.org/Locksmith
-Lottery Retailer,http://schema.org/Store
-Luggage Store,http://schema.org/Store
-Marijuana Dispensary,http://schema.org/Store
-Market,http://schema.org/Store
-Massage Studio,http://schema.org/HealthAndBeautyBusiness
-Mattress Store,http://schema.org/Store
-Medical Supply Store,http://schema.org/Store
-Miscellaneous Shop,http://schema.org/Store
-Mobile Phone Shop,http://schema.org/MobilePhoneStore
-Mobility Store,http://schema.org/Store
-Motorcycle Shop,http://schema.org/MotorcycleDealer
-Motorsports Shop,http://schema.org/SportingGoodsStore
-Music Store,http://schema.org/MusicStore
-Nail Salon,http://schema.org/NailSalon
-Newsstand,http://schema.org/Store
-Notary,http://schema.org/Notary
-Optical Shop,http://schema.org/Store
-Other Repair Shop,http://schema.org/LocalBusiness
-Outdoor Supply Store,http://schema.org/SportingGoodsStore
-Outlet Mall,http://schema.org/OutletStore
-Outlet Store,http://schema.org/OutletStore
-Paper / Office Supplies Store,http://schema.org/OfficeEquipmentStore
-Pawn Shop,http://schema.org/PawnShop
-Perfume Shop,http://schema.org/Store
-Pet Service,http://schema.org/LocalBusiness
-Pet Store,http://schema.org/PetStore
-Pharmacy,http://schema.org/Store
-Photography Lab,http://schema.org/LocalBusiness
-Photography Studio,http://schema.org/LocalBusiness
-Piercing Parlor,http://schema.org/Store
-Pop-Up Shop,http://schema.org/Store
-Print Shop,http://schema.org/Store
-Public Bathroom,http://schema.org/CivicStructure
-Real Estate Office,http://schema.org/RealEstateAgent
-Record Shop,http://schema.org/MusicStore
-Recording Studio,http://schema.org/LocalBusiness
-Recycling Facility,http://schema.org/RecyclingCenter
-Rental Service,http://schema.org/LocalBusiness
-Salon / Barbershop,http://schema.org/HairSalon
-Sauna / Steam Room,http://schema.org/HealthAndBeautyBusiness
-Shipping Store,http://schema.org/LocalBusiness
-Shoe Repair,http://schema.org/LocalBusiness
-Shopping Mall,http://schema.org/ShoppingCenter
-Shopping Plaza,http://schema.org/ShoppingCenter
-Skate Shop,http://schema.org/SportingGoodsStore
-Ski Shop,http://schema.org/SportingGoodsStore
-Smoke Shop,http://schema.org/Store
-Smoothie Shop,http://schema.org/GroceryStore
-Souvenir Shop,http://schema.org/Store
-Spa,http://schema.org/DaySpa
-Sporting Goods Shop,http://schema.org/SportingGoodsStore
-Stationery Store,http://schema.org/OfficeEquipmentStore
-Storage Facility,http://schema.org/SelfStorage
-Supplement Shop,http://schema.org/Store
-Tailor Shop,http://schema.org/ClothingStore
-Tanning Salon,http://schema.org/BeautySalon
-Tattoo Parlor,http://schema.org/TattooParlor
-Thrift / Vintage Store,http://schema.org/Store
-Toy / Game Store,http://schema.org/ToyStore
-Travel Agency,http://schema.org/TravelAgency
-Used Bookstore,http://schema.org/BookStore
-Vape Store,http://schema.org/Store
-Video Game Store,http://schema.org/Store
-Video Store,http://schema.org/MovieRentalStore
-Warehouse Store,http://schema.org/DepartmentStore
-Watch Shop,http://schema.org/JewelryStore
-Travel & Transport,http://schema.org/CivicStructure
-Airport,http://schema.org/Airport
-Airport Food Court,http://schema.org/FoodEstablishment
-Airport Gate,http://schema.org/Airport
-Airport Lounge,http://schema.org/Airport
-Airport Service,http://schema.org/Airport
-Airport Terminal,http://schema.org/Airport
-Airport Tram,http://schema.org/Airport
-Baggage Claim,http://schema.org/Airport
-Plane,http://schema.org/Airport
-Baggage Locker,http://schema.org/LocalBusiness
-Bike Rental / Bike Share,http://schema.org/LocalBusiness
-Boat Rental,http://schema.org/LocalBusiness
-Boat or Ferry,http://schema.org/CivicStructure
-Border Crossing,http://schema.org/CivicStructure
-Bus Station,http://schema.org/BusStation
-Bus Line,http://schema.org/BusStation
-Bus Stop,http://schema.org/BusStop
-Cable Car,http://schema.org/CivicStructure
-Cruise,http://schema.org/CivicStructure
-Duty-free Shop,http://schema.org/Store
-General Travel,http://schema.org/CivicStructure
-Heliport,http://schema.org/Airport
-Hotel,http://schema.org/Hotel
-Bed & Breakfast,http://schema.org/BedAndBreakfast
-Boarding House,http://schema.org/LodgingBusiness
-Hostel,http://schema.org/Hostel
-Hotel Pool,http://schema.org/Hotel
-Inn,http://schema.org/LodgingBusiness
-Motel,http://schema.org/Motel
-Resort,http://schema.org/Resort
-Vacation Rental,http://schema.org/LodgingBusiness
-Intersection,http://schema.org/CivicStructure
-Light Rail Station,http://schema.org/SubwayStation
-Metro Station,http://schema.org/SubwayStation
-Moving Target,http://schema.org/LocalBusiness
-Pier,http://schema.org/CivicStructure
-Port,http://schema.org/CivicStructure
-RV Park,http://schema.org/RVPark
-Rental Car Location,http://schema.org/AutoRental
-Rest Area,http://schema.org/CivicStructure
-Road,http://schema.org/CivicStructure
-Taxi Stand,http://schema.org/TaxiStand
-Taxi,http://schema.org/TaxiStand
-Toll Booth,http://schema.org/CivicStructure
-Toll Plaza,http://schema.org/CivicStructure
-Tourist Information Center,http://schema.org/TouristInformationCenter
-Train Station,http://schema.org/TrainStation
-Platform,http://schema.org/TrainStation
-Train,http://schema.org/TrainStation
-Tram Station,http://schema.org/CivicStructure
-Transportation Service,http://schema.org/CivicStructure
-Travel Lounge,http://schema.org/CivicStructure
-Tunnel,http://schema.org/CivicStructure
-Street,http://schema.org/CivicStructure
-Gas Station / Garage,http://schema.org/GasStation
-Malaysian Restaurant,http://schema.org/Restaurant
-Car Dealership,http://schema.org/AutoDealer
-Light Rail,http://schema.org/CivicStructure
-Athletic & Sport,http://schema.org/SportsActivityLocation
-Volcanoes,http://schema.org/Volcano
-Drugstore / Pharmacy,http://schema.org/Store
-Hiking Trail,http://schema.org/CivicStructure
-Subway,http://schema.org/SubwayStation
-Mall,http://schema.org/ShoppingCenter
-Spa / Massage,http://schema.org/DaySpa
-Stable,http://schema.org/CivicStructure
-Frozen Yogurt,http://schema.org/FoodEstablishment
-Yogurt,http://schema.org/FoodEstablishment
-Trails,http://schema.org/CivicStructure
-Ramen /  Noodle House,http://schema.org/FoodEstablishment
-Tennis,http://schema.org/TennisComplex
-Ferry,http://schema.org/CivicStructure
-Caf,http://schema.org/CafeOrCoffeeShop
+4d4b7104d754a06370d81259,Arts & Entertainment,schema:EntertainmentBusiness
+56aa371be4b08b9a8d5734db,Amphitheater,schema:EntertainmentBusiness
+4fceea171983d5d06c3e9823,Aquarium,schema:Aquarium
+4bf58dd8d48988d1e1931735,Arcade,schema:EntertainmentBusiness
+4bf58dd8d48988d1e2931735,Art Gallery,schema:ArtGallery
+4bf58dd8d48988d1e4931735,Bowling Alley,schema:BowlingAlley
+4bf58dd8d48988d17c941735,Casino,schema:Casino
+52e81612bcbc57f1066b79e7,Circus,schema:EntertainmentBusiness
+4bf58dd8d48988d18e941735,Comedy Club,schema:ComedyClub
+5032792091d4c4b30a586d5c,Concert Hall,schema:MusicVenue
+52e81612bcbc57f1066b79ef,Country Dance Club,schema:LocalBusiness
+52e81612bcbc57f1066b79e8,Disc Golf,schema:SportsActivityLocation
+56aa371be4b08b9a8d573532,Exhibit,schema:EntertainmentBusiness
+4bf58dd8d48988d1f1931735,General Entertainment,schema:EntertainmentBusiness
+52e81612bcbc57f1066b79ea,Go Kart Track,schema:SportsActivityLocation
+4deefb944765f83613cdba6e,Historic Site,schema:LandmarksOrHistoricalBuildings
+5744ccdfe4b0c0459246b4bb,Karaoke Box,schema:EntertainmentBusiness
+52e81612bcbc57f1066b79e6,Laser Tag,schema:EntertainmentBusiness
+5642206c498e4bfca532186c,Memorial Site,schema:LandmarksOrHistoricalBuildings
+52e81612bcbc57f1066b79eb,Mini Golf,schema:SportsActivityLocation
+4bf58dd8d48988d17f941735,Movie Theater,schema:MovieTheater
+56aa371be4b08b9a8d5734de,Drive-in Theater,schema:MovieTheater
+4bf58dd8d48988d17e941735,Indie Movie Theater,schema:MovieTheater
+4bf58dd8d48988d180941735,Multiplex,schema:MovieTheater
+4bf58dd8d48988d181941735,Museum,schema:Museum
+4bf58dd8d48988d18f941735,Art Museum,schema:Museum
+559acbe0498e472f1a53fa23,Erotic Museum,schema:Museum
+4bf58dd8d48988d190941735,History Museum,schema:Museum
+4bf58dd8d48988d192941735,Planetarium,schema:Museum
+4bf58dd8d48988d191941735,Science Museum,schema:Museum
+4bf58dd8d48988d1e5931735,Music Venue,schema:MusicVenue
+4bf58dd8d48988d1e7931735,Jazz Club,schema:MusicVenue
+4bf58dd8d48988d1e8931735,Piano Bar,schema:MusicVenue
+4bf58dd8d48988d1e9931735,Rock Club,schema:MusicVenue
+5744ccdfe4b0c0459246b4b8,Pachinko Parlor,schema:Casino
+4bf58dd8d48988d1f2931735,Performing Arts Venue,schema:PerformingArtsTheater
+4bf58dd8d48988d134941735,Dance Studio,schema:PerformingArtsTheater
+4bf58dd8d48988d135941735,Indie Theater,schema:PerformingArtsTheater
+4bf58dd8d48988d136941735,Opera House,schema:PerformingArtsTheater
+4bf58dd8d48988d137941735,Theater,schema:PerformingArtsTheater
+4bf58dd8d48988d1e3931735,Pool Hall,schema:SportsActivityLocation
+507c8c4091d498d9fc8c67a9,Public Art,schema:EntertainmentBusiness
+52e81612bcbc57f1066b79ed,Outdoor Sculpture,schema:LandmarksOrHistoricalBuildings
+52e81612bcbc57f1066b79ee,Street Art,schema:EntertainmentBusiness
+56aa371be4b08b9a8d573514,Racecourse,schema:SportsActivityLocation
+4bf58dd8d48988d1f4931735,Racetrack,schema:SportsActivityLocation
+52e81612bcbc57f1066b79e9,Roller Rink,schema:SportsActivityLocation
+52e81612bcbc57f1066b79ec,Salsa Club,schema:EntertainmentBusiness
+56aa371be4b08b9a8d5734f9,Samba School,schema:EntertainmentBusiness
+4bf58dd8d48988d184941735,Stadium,schema:StadiumOrArena
+4bf58dd8d48988d18c941735,Baseball Stadium,schema:StadiumOrArena
+4bf58dd8d48988d18b941735,Basketball Stadium,schema:StadiumOrArena
+4bf58dd8d48988d18a941735,Cricket Ground,schema:StadiumOrArena
+4bf58dd8d48988d189941735,Football Stadium,schema:StadiumOrArena
+4bf58dd8d48988d185941735,Hockey Arena,schema:StadiumOrArena
+56aa371be4b08b9a8d573556,Rugby Stadium,schema:StadiumOrArena
+4bf58dd8d48988d188941735,Soccer Stadium,schema:StadiumOrArena
+4e39a891bd410d7aed40cbc2,Tennis Stadium,schema:TennisComplex
+4bf58dd8d48988d187941735,Track Stadium,schema:StadiumOrArena
+4bf58dd8d48988d182941735,Theme Park,schema:AmusementPark
+5109983191d435c0d71c2bb1,Theme Park Ride / Attraction,schema:AmusementPark
+56aa371be4b08b9a8d573520,Tour Provider,schema:AmusementPark
+4bf58dd8d48988d193941735,Water Park,schema:AmusementPark
+4bf58dd8d48988d17b941735,Zoo,schema:Zoo
+58daa1558bbb0b01f18ec1fd,Zoo Exhibit,schema:Zoo
+4d4b7105d754a06372d81259,College & University,schema:CivicStructure
+4bf58dd8d48988d198941735,College Academic Building,schema:CivicStructure
+4bf58dd8d48988d199941735,College Arts Building,schema:CivicStructure
+4bf58dd8d48988d19a941735,College Communications Building,schema:CivicStructure
+4bf58dd8d48988d19e941735,College Engineering Building,schema:CivicStructure
+4bf58dd8d48988d19d941735,College History Building,schema:CivicStructure
+4bf58dd8d48988d19c941735,College Math Building,schema:CivicStructure
+4bf58dd8d48988d19b941735,College Science Building,schema:CivicStructure
+4bf58dd8d48988d19f941735,College Technology Building,schema:CivicStructure
+4bf58dd8d48988d197941735,College Administrative Building,schema:CivicStructure
+4bf58dd8d48988d1af941735,College Auditorium,schema:MusicVenue
+4bf58dd8d48988d1b1941735,College Bookstore,schema:BookStore
+4bf58dd8d48988d1a1941735,College Cafeteria,schema:CafeOrCoffeeShop
+4bf58dd8d48988d1a0941735,College Classroom,schema:CivicStructure
+4bf58dd8d48988d1b2941735,College Gym,schema:ExerciseGym
+4bf58dd8d48988d1a5941735,College Lab,schema:CivicStructure
+4bf58dd8d48988d1a7941735,College Library,schema:Library
+4bf58dd8d48988d1aa941735,College Quad,schema:CivicStructure
+4bf58dd8d48988d1a9941735,College Rec Center,schema:CivicStructure
+4bf58dd8d48988d1a3941735,College Residence Hall,schema:Residence
+4bf58dd8d48988d1b4941735,College Stadium,schema:StadiumOrArena
+4bf58dd8d48988d1bb941735,College Baseball Diamond,schema:StadiumOrArena
+4bf58dd8d48988d1ba941735,College Basketball Court,schema:StadiumOrArena
+4bf58dd8d48988d1b9941735,College Cricket Pitch,schema:StadiumOrArena
+4bf58dd8d48988d1b8941735,College Football Field,schema:StadiumOrArena
+4bf58dd8d48988d1b5941735,College Hockey Rink,schema:StadiumOrArena
+4bf58dd8d48988d1b7941735,College Soccer Field,schema:StadiumOrArena
+4e39a9cebd410d7aed40cbc4,College Tennis Court,schema:TennisComplex
+4bf58dd8d48988d1b6941735,College Track,schema:SportsActivityLocation
+4bf58dd8d48988d1ac941735,College Theater,schema:PerformingArtsTheater
+4bf58dd8d48988d1a2941735,Community College,schema:CivicStructure
+4bf58dd8d48988d1b0941735,Fraternity House,schema:CivicStructure
+4bf58dd8d48988d1a8941735,General College & University,schema:CivicStructure
+4bf58dd8d48988d1a6941735,Law School,schema:CivicStructure
+4bf58dd8d48988d1b3941735,Medical School,schema:CivicStructure
+4bf58dd8d48988d141941735,Sorority House,schema:CivicStructure
+4bf58dd8d48988d1ab941735,Student Center,schema:CivicStructure
+4bf58dd8d48988d1ad941735,Trade School,schema:CivicStructure
+4bf58dd8d48988d1ae941735,University,schema:CivicStructure
+4d4b7105d754a06373d81259,Event,schema:Event
+52f2ab2ebcbc57f1066b8b3b,Christmas Market,schema:Event
+5267e4d9e4b0ec79466e48c6,Conference,schema:Event
+5267e4d9e4b0ec79466e48c9,Convention,schema:Event
+5267e4d9e4b0ec79466e48c7,Festival,schema:Festival
+58daa1558bbb0b01f18ec1fa,Line / Queue,schema:Event
+5267e4d9e4b0ec79466e48d1,Music Festival,schema:MusicEvent
+5267e4d9e4b0ec79466e48c8,Other Event,schema:Event
+52741d85e4b0d5d1e3c6a6d9,Parade,schema:Event
+5bae9231bedf3950379f89c5,Sporting Event,schema:SportsEvent
+52f2ab2ebcbc57f1066b8b54,Stoop Sale,schema:SaleEvent
+5267e4d8e4b0ec79466e48c5,Street Fair,schema:Event
+5bae9231bedf3950379f89c3,Trade Fair,schema:ExhibitionEvent
+4d4b7105d754a06374d81259,Food,schema:FoodEstablishment
+503288ae91d4c4b30a586d67,Afghan Restaurant,schema:Restaurant
+4bf58dd8d48988d1c8941735,African Restaurant,schema:Restaurant
+4bf58dd8d48988d10a941735,Ethiopian Restaurant,schema:Restaurant
+4bf58dd8d48988d14e941735,American Restaurant,schema:Restaurant
+4bf58dd8d48988d157941735,New American Restaurant,schema:Restaurant
+4bf58dd8d48988d142941735,Asian Restaurant,schema:Restaurant
+56aa371be4b08b9a8d573568,Burmese Restaurant,schema:Restaurant
+52e81612bcbc57f1066b7a03,Cambodian Restaurant,schema:Restaurant
+4bf58dd8d48988d145941735,Chinese Restaurant,schema:Restaurant
+52af3a5e3cf9994f4e043bea,Anhui Restaurant,schema:Restaurant
+52af3a723cf9994f4e043bec,Beijing Restaurant,schema:Restaurant
+52af3a7c3cf9994f4e043bed,Cantonese Restaurant,schema:Restaurant
+58daa1558bbb0b01f18ec1d3,Cha Chaan Teng,schema:Restaurant
+52af3a673cf9994f4e043beb,Chinese Aristocrat Restaurant,schema:Restaurant
+52af3a903cf9994f4e043bee,Chinese Breakfast Place,schema:FoodEstablishment
+4bf58dd8d48988d1f5931735,Dim Sum Restaurant,schema:Restaurant
+52af3a9f3cf9994f4e043bef,Dongbei Restaurant,schema:Restaurant
+52af3aaa3cf9994f4e043bf0,Fujian Restaurant,schema:Restaurant
+52af3ab53cf9994f4e043bf1,Guizhou Restaurant,schema:Restaurant
+52af3abe3cf9994f4e043bf2,Hainan Restaurant,schema:Restaurant
+52af3ac83cf9994f4e043bf3,Hakka Restaurant,schema:Restaurant
+52af3ad23cf9994f4e043bf4,Henan Restaurant,schema:Restaurant
+52af3add3cf9994f4e043bf5,Hong Kong Restaurant,schema:Restaurant
+52af3af23cf9994f4e043bf7,Huaiyang Restaurant,schema:Restaurant
+52af3ae63cf9994f4e043bf6,Hubei Restaurant,schema:Restaurant
+52af3afc3cf9994f4e043bf8,Hunan Restaurant,schema:Restaurant
+52af3b053cf9994f4e043bf9,Imperial Restaurant,schema:Restaurant
+52af3b213cf9994f4e043bfa,Jiangsu Restaurant,schema:Restaurant
+52af3b293cf9994f4e043bfb,Jiangxi Restaurant,schema:Restaurant
+52af3b343cf9994f4e043bfc,Macanese Restaurant,schema:Restaurant
+52af3b3b3cf9994f4e043bfd,Manchu Restaurant,schema:Restaurant
+52af3b463cf9994f4e043bfe,Peking Duck Restaurant,schema:Restaurant
+52af3b633cf9994f4e043c01,Shaanxi Restaurant,schema:Restaurant
+52af3b513cf9994f4e043bff,Shandong Restaurant,schema:Restaurant
+52af3b593cf9994f4e043c00,Shanghai Restaurant,schema:Restaurant
+52af3b6e3cf9994f4e043c02,Shanxi Restaurant,schema:Restaurant
+52af3b773cf9994f4e043c03,Szechuan Restaurant,schema:Restaurant
+52af3b813cf9994f4e043c04,Taiwanese Restaurant,schema:Restaurant
+52af3b893cf9994f4e043c05,Tianjin Restaurant,schema:Restaurant
+52af3b913cf9994f4e043c06,Xinjiang Restaurant,schema:Restaurant
+52af3b9a3cf9994f4e043c07,Yunnan Restaurant,schema:Restaurant
+52af3ba23cf9994f4e043c08,Zhejiang Restaurant,schema:Restaurant
+4eb1bd1c3b7b55596b4a748f,Filipino Restaurant,schema:Restaurant
+52e81612bcbc57f1066b79fb,Himalayan Restaurant,schema:Restaurant
+52af0bd33cf9994f4e043bdd,Hotpot Restaurant,schema:Restaurant
+4deefc054765f83613cdba6f,Indonesian Restaurant,schema:Restaurant
+52960eda3cf9994f4e043ac9,Acehnese Restaurant,schema:Restaurant
+52960eda3cf9994f4e043acb,Balinese Restaurant,schema:Restaurant
+52960eda3cf9994f4e043aca,Betawinese Restaurant,schema:Restaurant
+52960eda3cf9994f4e043acc,Indonesian Meatball Place,schema:FoodEstablishment
+52960eda3cf9994f4e043ac7,Javanese Restaurant,schema:Restaurant
+52960eda3cf9994f4e043ac8,Manadonese Restaurant,schema:Restaurant
+52960eda3cf9994f4e043ac5,Padangnese Restaurant,schema:Restaurant
+52960eda3cf9994f4e043ac6,Sundanese Restaurant,schema:Restaurant
+4bf58dd8d48988d111941735,Japanese Restaurant,schema:Restaurant
+55a59bace4b013909087cb0c,Donburi Restaurant,schema:Restaurant
+55a59bace4b013909087cb30,Japanese Curry Restaurant,schema:Restaurant
+55a59bace4b013909087cb21,Kaiseki Restaurant,schema:Restaurant
+55a59bace4b013909087cb06,Kushikatsu Restaurant,schema:Restaurant
+55a59bace4b013909087cb1b,Monjayaki Restaurant,schema:Restaurant
+55a59bace4b013909087cb1e,Nabe Restaurant,schema:Restaurant
+55a59bace4b013909087cb18,Okonomiyaki Restaurant,schema:Restaurant
+55a59bace4b013909087cb24,Ramen Restaurant,schema:Restaurant
+55a59bace4b013909087cb15,Shabu-Shabu Restaurant,schema:Restaurant
+55a59bace4b013909087cb27,Soba Restaurant,schema:Restaurant
+55a59bace4b013909087cb12,Sukiyaki Restaurant,schema:Restaurant
+4bf58dd8d48988d1d2941735,Sushi Restaurant,schema:Restaurant
+55a59bace4b013909087cb2d,Takoyaki Place,schema:FoodEstablishment
+55a59a31e4b013909087cb00,Tempura Restaurant,schema:Restaurant
+55a59af1e4b013909087cb03,Tonkatsu Restaurant,schema:Restaurant
+55a59bace4b013909087cb2a,Udon Restaurant,schema:Restaurant
+55a59bace4b013909087cb0f,Unagi Restaurant,schema:Restaurant
+55a59bace4b013909087cb33,Wagashi Place,schema:FoodEstablishment
+55a59bace4b013909087cb09,Yakitori Restaurant,schema:Restaurant
+55a59bace4b013909087cb36,Yoshoku Restaurant,schema:Restaurant
+4bf58dd8d48988d113941735,Korean Restaurant,schema:Restaurant
+56aa371be4b08b9a8d5734e4,Bossam/Jokbal Restaurant,schema:Restaurant
+56aa371be4b08b9a8d5734f0,Bunsik Restaurant,schema:Restaurant
+56aa371be4b08b9a8d5734e7,Gukbap Restaurant,schema:Restaurant
+56aa371be4b08b9a8d5734ed,Janguh Restaurant,schema:Restaurant
+56aa371be4b08b9a8d5734ea,Samgyetang Restaurant,schema:Restaurant
+4bf58dd8d48988d156941735,Malay Restaurant,schema:Restaurant
+5ae9595eb77c77002c2f9f26,Mamak Restaurant,schema:Restaurant
+4eb1d5724b900d56c88a45fe,Mongolian Restaurant,schema:Restaurant
+4bf58dd8d48988d1d1941735,Noodle House,schema:Restaurant
+56aa371be4b08b9a8d57350e,Satay Restaurant,schema:Restaurant
+4bf58dd8d48988d149941735,Thai Restaurant,schema:Restaurant
+56aa371be4b08b9a8d573502,Som Tum Restaurant,schema:Restaurant
+52af39fb3cf9994f4e043be9,Tibetan Restaurant,schema:Restaurant
+4bf58dd8d48988d14a941735,Vietnamese Restaurant,schema:Restaurant
+4bf58dd8d48988d169941735,Australian Restaurant,schema:Restaurant
+52e81612bcbc57f1066b7a01,Austrian Restaurant,schema:Restaurant
+4bf58dd8d48988d1df931735,BBQ Joint,schema:Restaurant
+4bf58dd8d48988d179941735,Bagel Shop,schema:Bakery
+4bf58dd8d48988d16a941735,Bakery,schema:Bakery
+52e81612bcbc57f1066b7a02,Belgian Restaurant,schema:Restaurant
+52e81612bcbc57f1066b79f1,Bistro,schema:FoodEstablishment
+4bf58dd8d48988d143941735,Breakfast Spot,schema:FoodEstablishment
+52e81612bcbc57f1066b7a0c,Bubble Tea Shop,schema:FoodEstablishment
+52e81612bcbc57f1066b79f4,Buffet,schema:FoodEstablishment
+4bf58dd8d48988d16c941735,Burger Joint,schema:FoodEstablishment
+4bf58dd8d48988d128941735,Cafeteria,schema:CafeOrCoffeeShop
+4bf58dd8d48988d16d941735,Café,schema:CafeOrCoffeeShop
+4bf58dd8d48988d17a941735,Cajun / Creole Restaurant,schema:Restaurant
+4bf58dd8d48988d144941735,Caribbean Restaurant,schema:Restaurant
+4bf58dd8d48988d154941735,Cuban Restaurant,schema:Restaurant
+5293a7d53cf9994f4e043a45,Caucasian Restaurant,schema:Restaurant
+4bf58dd8d48988d1e0931735,Coffee Shop,schema:CafeOrCoffeeShop
+52e81612bcbc57f1066b7a00,Comfort Food Restaurant,schema:Restaurant
+52e81612bcbc57f1066b79f2,Creperie,schema:FoodEstablishment
+52f2ae52bcbc57f1066b8b81,Czech Restaurant,schema:Restaurant
+4bf58dd8d48988d146941735,Deli / Bodega,schema:FoodEstablishment
+4bf58dd8d48988d1d0941735,Dessert Shop,schema:FoodEstablishment
+4bf58dd8d48988d1bc941735,Cupcake Shop,schema:FoodEstablishment
+512e7cae91d4cbb4e5efe0af,Frozen Yogurt Shop,schema:FoodEstablishment
+4bf58dd8d48988d1c9941735,Ice Cream Shop,schema:IceCreamShop
+5744ccdfe4b0c0459246b4e2,Pastry Shop,schema:FoodEstablishment
+52e81612bcbc57f1066b7a0a,Pie Shop,schema:FoodEstablishment
+4bf58dd8d48988d147941735,Diner,schema:FoodEstablishment
+4bf58dd8d48988d148941735,Donut Shop,schema:FoodEstablishment
+4bf58dd8d48988d108941735,Dumpling Restaurant,schema:Restaurant
+5744ccdfe4b0c0459246b4d0,Dutch Restaurant,schema:Restaurant
+4bf58dd8d48988d109941735,Eastern European Restaurant,schema:Restaurant
+52e928d0bcbc57f1066b7e97,Belarusian Restaurant,schema:Restaurant
+58daa1558bbb0b01f18ec1ee,Bosnian Restaurant,schema:Restaurant
+56aa371be4b08b9a8d5734f3,Bulgarian Restaurant,schema:Restaurant
+52960bac3cf9994f4e043ac4,Romanian Restaurant,schema:Restaurant
+52e928d0bcbc57f1066b7e98,Tatar Restaurant,schema:Restaurant
+52e81612bcbc57f1066b7a05,English Restaurant,schema:Restaurant
+4bf58dd8d48988d10b941735,Falafel Restaurant,schema:Restaurant
+4bf58dd8d48988d16e941735,Fast Food Restaurant,schema:Restaurant
+4edd64a0c7ddd24ca188df1a,Fish & Chips Shop,schema:FoodEstablishment
+52e81612bcbc57f1066b7a09,Fondue Restaurant,schema:Restaurant
+4bf58dd8d48988d120951735,Food Court,schema:FoodEstablishment
+56aa371be4b08b9a8d57350b,Food Stand,schema:FoodEstablishment
+4bf58dd8d48988d1cb941735,Food Truck,schema:FoodEstablishment
+4bf58dd8d48988d10c941735,French Restaurant,schema:Restaurant
+57558b36e4b065ecebd306b6,Alsatian Restaurant,schema:Restaurant
+57558b36e4b065ecebd306b8,Auvergne Restaurant,schema:Restaurant
+57558b36e4b065ecebd306bc,Basque Restaurant,schema:Restaurant
+57558b36e4b065ecebd306b0,Brasserie,schema:Restaurant
+57558b36e4b065ecebd306c5,Breton Restaurant,schema:Restaurant
+57558b36e4b065ecebd306c0,Burgundian Restaurant,schema:Restaurant
+57558b36e4b065ecebd306cb,Catalan Restaurant,schema:Restaurant
+57558b36e4b065ecebd306ce,Ch'ti Restaurant,schema:Restaurant
+57558b36e4b065ecebd306d1,Corsican Restaurant,schema:Restaurant
+57558b36e4b065ecebd306b4,Estaminet,schema:FoodEstablishment
+57558b36e4b065ecebd306b2,Labour Canteen,schema:FoodEstablishment
+57558b35e4b065ecebd306ad,Lyonese Bouchon,schema:Restaurant
+57558b36e4b065ecebd306d4,Norman Restaurant,schema:Restaurant
+57558b36e4b065ecebd306d7,Provençal Restaurant,schema:Restaurant
+57558b36e4b065ecebd306da,Savoyard Restaurant,schema:Restaurant
+57558b36e4b065ecebd306ba,Southwestern French Restaurant,schema:Restaurant
+4d4ae6fc7a7b7dea34424761,Fried Chicken Joint,schema:FoodEstablishment
+55d25775498e9f6a0816a37a,Friterie,schema:FoodEstablishment
+4bf58dd8d48988d155941735,Gastropub,schema:BarOrPub
+4bf58dd8d48988d10d941735,German Restaurant,schema:Restaurant
+56aa371ce4b08b9a8d573583,Apple Wine Pub,schema:BarOrPub
+56aa371ce4b08b9a8d573572,Bavarian Restaurant,schema:Restaurant
+56aa371ce4b08b9a8d57358e,Bratwurst Joint,schema:FoodEstablishment
+56aa371ce4b08b9a8d57358b,Currywurst Joint,schema:FoodEstablishment
+56aa371ce4b08b9a8d573574,Franconian Restaurant,schema:Restaurant
+56aa371ce4b08b9a8d573592,German Pop-Up Restaurant,schema:Restaurant
+56aa371ce4b08b9a8d573578,Palatine Restaurant,schema:Restaurant
+56aa371ce4b08b9a8d57357b,Rhenisch Restaurant,schema:Restaurant
+56aa371ce4b08b9a8d573587,Schnitzel Restaurant,schema:Restaurant
+56aa371ce4b08b9a8d57357f,Silesian Restaurant,schema:Restaurant
+56aa371ce4b08b9a8d573576,Swabian Restaurant,schema:Restaurant
+4c2cd86ed066bed06c3c5209,Gluten-free Restaurant,schema:Restaurant
+4bf58dd8d48988d10e941735,Greek Restaurant,schema:Restaurant
+53d6c1b0e4b02351e88a83e8,Bougatsa Shop,schema:FoodEstablishment
+53d6c1b0e4b02351e88a83e2,Cretan Restaurant,schema:Restaurant
+53d6c1b0e4b02351e88a83d8,Fish Taverna,schema:Restaurant
+53d6c1b0e4b02351e88a83d6,Grilled Meat Restaurant,schema:Restaurant
+53d6c1b0e4b02351e88a83e6,Kafenio,schema:Restaurant
+53d6c1b0e4b02351e88a83e4,Magirio,schema:Restaurant
+53d6c1b0e4b02351e88a83da,Meze Restaurant,schema:Restaurant
+53d6c1b0e4b02351e88a83d4,Modern Greek Restaurant,schema:Restaurant
+53d6c1b0e4b02351e88a83dc,Ouzeri,schema:Restaurant
+53d6c1b0e4b02351e88a83e0,Patsa Restaurant,schema:Restaurant
+52e81612bcbc57f1066b79f3,Souvlaki Shop,schema:FoodEstablishment
+53d6c1b0e4b02351e88a83d2,Taverna,schema:FoodEstablishment
+53d6c1b0e4b02351e88a83de,Tsipouro Restaurant,schema:Restaurant
+52e81612bcbc57f1066b79ff,Halal Restaurant,schema:Restaurant
+52e81612bcbc57f1066b79fe,Hawaiian Restaurant,schema:Restaurant
+5bae9231bedf3950379f89d4,Poke Place,schema:FoodEstablishment
+4bf58dd8d48988d16f941735,Hot Dog Joint,schema:FoodEstablishment
+52e81612bcbc57f1066b79fa,Hungarian Restaurant,schema:Restaurant
+4bf58dd8d48988d10f941735,Indian Restaurant,schema:Restaurant
+54135bf5e4b08f3d2429dfe5,Andhra Restaurant,schema:Restaurant
+54135bf5e4b08f3d2429dff3,Awadhi Restaurant,schema:Restaurant
+54135bf5e4b08f3d2429dff5,Bengali Restaurant,schema:Restaurant
+54135bf5e4b08f3d2429dfe2,Chaat Place,schema:FoodEstablishment
+54135bf5e4b08f3d2429dff2,Chettinad Restaurant,schema:Restaurant
+54135bf5e4b08f3d2429dfe1,Dhaba,schema:FoodEstablishment
+54135bf5e4b08f3d2429dfe3,Dosa Place,schema:FoodEstablishment
+54135bf5e4b08f3d2429dfe8,Goan Restaurant,schema:Restaurant
+54135bf5e4b08f3d2429dfe9,Gujarati Restaurant,schema:Restaurant
+54135bf5e4b08f3d2429dfe6,Hyderabadi Restaurant,schema:Restaurant
+54135bf5e4b08f3d2429dfdf,Indian Chinese Restaurant,schema:Restaurant
+54135bf5e4b08f3d2429dfe4,Indian Sweet Shop,schema:FoodEstablishment
+54135bf5e4b08f3d2429dfe7,Irani Cafe,schema:CafeOrCoffeeShop
+54135bf5e4b08f3d2429dfea,Jain Restaurant,schema:Restaurant
+54135bf5e4b08f3d2429dfeb,Karnataka Restaurant,schema:Restaurant
+54135bf5e4b08f3d2429dfed,Kerala Restaurant,schema:Restaurant
+54135bf5e4b08f3d2429dfee,Maharashtrian Restaurant,schema:Restaurant
+54135bf5e4b08f3d2429dff4,Mughlai Restaurant,schema:Restaurant
+54135bf5e4b08f3d2429dfe0,Multicuisine Indian Restaurant,schema:Restaurant
+54135bf5e4b08f3d2429dfdd,North Indian Restaurant,schema:Restaurant
+54135bf5e4b08f3d2429dff6,Northeast Indian Restaurant,schema:Restaurant
+54135bf5e4b08f3d2429dfef,Parsi Restaurant,schema:Restaurant
+54135bf5e4b08f3d2429dff0,Punjabi Restaurant,schema:Restaurant
+54135bf5e4b08f3d2429dff1,Rajasthani Restaurant,schema:Restaurant
+54135bf5e4b08f3d2429dfde,South Indian Restaurant,schema:Restaurant
+54135bf5e4b08f3d2429dfec,Udupi Restaurant,schema:Restaurant
+52e81612bcbc57f1066b7a06,Irish Pub,schema:BarOrPub
+4bf58dd8d48988d110941735,Italian Restaurant,schema:Restaurant
+55a5a1ebe4b013909087cbb6,Abruzzo Restaurant,schema:Restaurant
+55a5a1ebe4b013909087cb7c,Agriturismo,schema:FoodEstablishment
+55a5a1ebe4b013909087cba7,Aosta Restaurant,schema:Restaurant
+55a5a1ebe4b013909087cba1,Basilicata Restaurant,schema:Restaurant
+55a5a1ebe4b013909087cba4,Calabria Restaurant,schema:Restaurant
+55a5a1ebe4b013909087cb95,Campanian Restaurant,schema:Restaurant
+55a5a1ebe4b013909087cb89,Emilia Restaurant,schema:Restaurant
+55a5a1ebe4b013909087cb9b,Friuli Restaurant,schema:Restaurant
+55a5a1ebe4b013909087cb98,Ligurian Restaurant,schema:Restaurant
+55a5a1ebe4b013909087cbbf,Lombard Restaurant,schema:Restaurant
+55a5a1ebe4b013909087cb79,Malga,schema:FoodEstablishment
+55a5a1ebe4b013909087cbb0,Marche Restaurant,schema:Restaurant
+55a5a1ebe4b013909087cbb3,Molise Restaurant,schema:Restaurant
+55a5a1ebe4b013909087cb74,Piadineria,schema:FoodEstablishment
+55a5a1ebe4b013909087cbaa,Piedmontese Restaurant,schema:Restaurant
+55a5a1ebe4b013909087cb83,Puglia Restaurant,schema:Restaurant
+55a5a1ebe4b013909087cb8c,Romagna Restaurant,schema:Restaurant
+55a5a1ebe4b013909087cb92,Roman Restaurant,schema:Restaurant
+55a5a1ebe4b013909087cb8f,Sardinian Restaurant,schema:Restaurant
+55a5a1ebe4b013909087cb86,Sicilian Restaurant,schema:Restaurant
+55a5a1ebe4b013909087cbb9,South Tyrolean Restaurant,schema:Restaurant
+55a5a1ebe4b013909087cb7f,Trattoria/Osteria,schema:Restaurant
+55a5a1ebe4b013909087cbbc,Trentino Restaurant,schema:Restaurant
+55a5a1ebe4b013909087cb9e,Tuscan Restaurant,schema:Restaurant
+55a5a1ebe4b013909087cbc2,Umbrian Restaurant,schema:Restaurant
+55a5a1ebe4b013909087cbad,Veneto Restaurant,schema:Restaurant
+52e81612bcbc57f1066b79fd,Jewish Restaurant,schema:Restaurant
+52e81612bcbc57f1066b79fc,Kosher Restaurant,schema:Restaurant
+4bf58dd8d48988d112941735,Juice Bar,schema:BarOrPub
+5283c7b4e4b094cb91ec88d7,Kebab Restaurant,schema:Restaurant
+4bf58dd8d48988d1be941735,Latin American Restaurant,schema:Restaurant
+4bf58dd8d48988d152941735,Arepa Restaurant,schema:Restaurant
+52939a8c3cf9994f4e043a35,Empanada Restaurant,schema:Restaurant
+5745c7ac498e5d0483112fdb,Salvadoran Restaurant,schema:Restaurant
+4bf58dd8d48988d1cd941735,South American Restaurant,schema:Restaurant
+4bf58dd8d48988d107941735,Argentinian Restaurant,schema:Restaurant
+4bf58dd8d48988d16b941735,Brazilian Restaurant,schema:Restaurant
+5294c7523cf9994f4e043a62,Acai House,schema:FoodEstablishment
+52939ae13cf9994f4e043a3b,Baiano Restaurant,schema:Restaurant
+52939a9e3cf9994f4e043a36,Central Brazilian Restaurant,schema:Restaurant
+52939a643cf9994f4e043a33,Churrascaria,schema:FoodEstablishment
+5294c55c3cf9994f4e043a61,Empada House,schema:FoodEstablishment
+52939af83cf9994f4e043a3d,Goiano Restaurant,schema:Restaurant
+52939aed3cf9994f4e043a3c,Mineiro Restaurant,schema:Restaurant
+52939aae3cf9994f4e043a37,Northeastern Brazilian Restaurant,schema:Restaurant
+52939ab93cf9994f4e043a38,Northern Brazilian Restaurant,schema:Restaurant
+5294cbda3cf9994f4e043a63,Pastelaria,schema:FoodEstablishment
+52939ac53cf9994f4e043a39,Southeastern Brazilian Restaurant,schema:Restaurant
+52939ad03cf9994f4e043a3a,Southern Brazilian Restaurant,schema:Restaurant
+52939a7d3cf9994f4e043a34,Tapiocaria,schema:FoodEstablishment
+58daa1558bbb0b01f18ec1f4,Colombian Restaurant,schema:Restaurant
+4eb1bfa43b7b52c0e1adc2e8,Peruvian Restaurant,schema:Restaurant
+56aa371be4b08b9a8d573558,Venezuelan Restaurant,schema:Restaurant
+4bf58dd8d48988d1bf941735,Mac & Cheese Joint,schema:FoodEstablishment
+4bf58dd8d48988d1c0941735,Mediterranean Restaurant,schema:Restaurant
+4bf58dd8d48988d1c3941735,Moroccan Restaurant,schema:Restaurant
+4bf58dd8d48988d1c1941735,Mexican Restaurant,schema:Restaurant
+58daa1558bbb0b01f18ec1d9,Botanero,schema:FoodEstablishment
+4bf58dd8d48988d153941735,Burrito Place,schema:FoodEstablishment
+4bf58dd8d48988d151941735,Taco Place,schema:FoodEstablishment
+56aa371ae4b08b9a8d5734ba,Tex-Mex Restaurant,schema:Restaurant
+5744ccdfe4b0c0459246b4d3,Yucatecan Restaurant,schema:Restaurant
+4bf58dd8d48988d115941735,Middle Eastern Restaurant,schema:Restaurant
+5bae9231bedf3950379f89e1,Egyptian Restaurant,schema:Restaurant
+5bae9231bedf3950379f89e7,Iraqi Restaurant,schema:Restaurant
+56aa371be4b08b9a8d573529,Israeli Restaurant,schema:Restaurant
+5744ccdfe4b0c0459246b4ca,Kurdish Restaurant,schema:Restaurant
+58daa1558bbb0b01f18ec1cd,Lebanese Restaurant,schema:Restaurant
+52e81612bcbc57f1066b79f7,Persian Restaurant,schema:Restaurant
+58daa1558bbb0b01f18ec1bc,Ash and Haleem Place,schema:FoodEstablishment
+58daa1558bbb0b01f18ec1c0,Dizi Place,schema:FoodEstablishment
+58daa1558bbb0b01f18ec1c4,Gilaki Restaurant,schema:Restaurant
+58daa1558bbb0b01f18ec1c7,Jegaraki,schema:FoodEstablishment
+5744ccdfe4b0c0459246b4a8,Tabbakhi,schema:FoodEstablishment
+5bae9231bedf3950379f89e4,Shawarma Place,schema:FoodEstablishment
+5bae9231bedf3950379f89da,Syrian Restaurant,schema:Restaurant
+5bae9231bedf3950379f89ea,Yemeni Restaurant,schema:Restaurant
+52e81612bcbc57f1066b79f9,Modern European Restaurant,schema:Restaurant
+4bf58dd8d48988d1c2941735,Molecular Gastronomy Restaurant,schema:Restaurant
+52e81612bcbc57f1066b79f8,Pakistani Restaurant,schema:Restaurant
+56aa371be4b08b9a8d573508,Pet Café,schema:CafeOrCoffeeShop
+4bf58dd8d48988d1ca941735,Pizza Place,schema:FoodEstablishment
+52e81612bcbc57f1066b7a04,Polish Restaurant,schema:Restaurant
+4def73e84765ae376e57713a,Portuguese Restaurant,schema:Restaurant
+56aa371be4b08b9a8d5734c7,Poutine Place,schema:FoodEstablishment
+4bf58dd8d48988d1c4941735,Restaurant,schema:Restaurant
+5293a7563cf9994f4e043a44,Russian Restaurant,schema:Restaurant
+52e928d0bcbc57f1066b7e9d,Blini House,schema:FoodEstablishment
+52e928d0bcbc57f1066b7e9c,Pelmeni House,schema:FoodEstablishment
+4bf58dd8d48988d1bd941735,Salad Place,schema:FoodEstablishment
+4bf58dd8d48988d1c5941735,Sandwich Place,schema:FoodEstablishment
+4bf58dd8d48988d1c6941735,Scandinavian Restaurant,schema:Restaurant
+5744ccdde4b0c0459246b4a3,Scottish Restaurant,schema:Restaurant
+4bf58dd8d48988d1ce941735,Seafood Restaurant,schema:Restaurant
+56aa371be4b08b9a8d57355a,Slovak Restaurant,schema:Restaurant
+4bf58dd8d48988d1c7941735,Snack Place,schema:FoodEstablishment
+4bf58dd8d48988d1dd931735,Soup Place,schema:FoodEstablishment
+4bf58dd8d48988d14f941735,Southern / Soul Food Restaurant,schema:Restaurant
+4bf58dd8d48988d150941735,Spanish Restaurant,schema:Restaurant
+4bf58dd8d48988d14d941735,Paella Restaurant,schema:Restaurant
+4bf58dd8d48988d1db931735,Tapas Restaurant,schema:Restaurant
+5413605de4b0ae91d18581a9,Sri Lankan Restaurant,schema:Restaurant
+4bf58dd8d48988d1cc941735,Steakhouse,schema:FoodEstablishment
+4bf58dd8d48988d158941735,Swiss Restaurant,schema:Restaurant
+4bf58dd8d48988d1dc931735,Tea Room,schema:FoodEstablishment
+56aa371be4b08b9a8d573538,Theme Restaurant,schema:Restaurant
+57558b36e4b065ecebd306dd,Truck Stop,schema:FoodEstablishment
+4f04af1f2fb6e1c99f3db0bb,Turkish Restaurant,schema:Restaurant
+530faca9bcbc57f1066bc2f3,Borek Place,schema:FoodEstablishment
+530faca9bcbc57f1066bc2f4,Cigkofte Place,schema:FoodEstablishment
+5283c7b4e4b094cb91ec88d8,Doner Restaurant,schema:Restaurant
+5283c7b4e4b094cb91ec88d9,Gozleme Place,schema:FoodEstablishment
+5283c7b4e4b094cb91ec88db,Kofte Place,schema:FoodEstablishment
+5283c7b4e4b094cb91ec88d6,Kokoreç Restaurant,schema:Restaurant
+56aa371be4b08b9a8d573535,Kumpir Restaurant,schema:Restaurant
+56aa371be4b08b9a8d5734bd,Kumru Restaurant,schema:Restaurant
+5283c7b4e4b094cb91ec88d5,Manti Place,schema:FoodEstablishment
+5283c7b4e4b094cb91ec88da,Meyhane,schema:FoodEstablishment
+530faca9bcbc57f1066bc2f2,Pide Place,schema:FoodEstablishment
+58daa1558bbb0b01f18ec1df,Pilavcı,schema:FoodEstablishment
+58daa1558bbb0b01f18ec1dc,Söğüş Place,schema:FoodEstablishment
+56aa371be4b08b9a8d5734bf,Tantuni Restaurant,schema:Restaurant
+56aa371be4b08b9a8d5734c1,Turkish Coffeehouse,schema:CafeOrCoffeeShop
+5283c7b4e4b094cb91ec88d4,Turkish Home Cooking Restaurant,schema:Restaurant
+58daa1558bbb0b01f18ec1e2,Çöp Şiş Place,schema:FoodEstablishment
+52e928d0bcbc57f1066b7e96,Ukrainian Restaurant,schema:Restaurant
+52e928d0bcbc57f1066b7e9a,Varenyky restaurant,schema:Restaurant
+52e928d0bcbc57f1066b7e9b,West-Ukrainian Restaurant,schema:Restaurant
+4bf58dd8d48988d1d3941735,Vegetarian / Vegan Restaurant,schema:Restaurant
+4bf58dd8d48988d14c941735,Wings Joint,schema:FoodEstablishment
+4d4b7105d754a06376d81259,Nightlife Spot,schema:FoodEstablishment
+4bf58dd8d48988d116941735,Bar,schema:BarOrPub
+52e81612bcbc57f1066b7a0d,Beach Bar,schema:BarOrPub
+56aa371ce4b08b9a8d57356c,Beer Bar,schema:BarOrPub
+4bf58dd8d48988d117941735,Beer Garden,schema:BarOrPub
+52e81612bcbc57f1066b7a0e,Champagne Bar,schema:BarOrPub
+4bf58dd8d48988d11e941735,Cocktail Bar,schema:BarOrPub
+4bf58dd8d48988d118941735,Dive Bar,schema:BarOrPub
+4bf58dd8d48988d1d8941735,Gay Bar,schema:BarOrPub
+4bf58dd8d48988d119941735,Hookah Bar,schema:BarOrPub
+4bf58dd8d48988d1d5941735,Hotel Bar,schema:BarOrPub
+4bf58dd8d48988d120941735,Karaoke Bar,schema:BarOrPub
+4bf58dd8d48988d11b941735,Pub,schema:BarOrPub
+4bf58dd8d48988d11c941735,Sake Bar,schema:BarOrPub
+4bf58dd8d48988d1d4941735,Speakeasy,schema:BarOrPub
+4bf58dd8d48988d11d941735,Sports Bar,schema:BarOrPub
+56aa371be4b08b9a8d57354d,Tiki Bar,schema:BarOrPub
+4bf58dd8d48988d122941735,Whisky Bar,schema:BarOrPub
+4bf58dd8d48988d123941735,Wine Bar,schema:BarOrPub
+50327c8591d4c4b30a586d5d,Brewery,schema:Brewery
+4bf58dd8d48988d121941735,Lounge,schema:BarOrPub
+53e510b7498ebcb1801b55d4,Night Market,schema:FoodEstablishment
+4bf58dd8d48988d11f941735,Nightclub,schema:NightClub
+4bf58dd8d48988d11a941735,Other Nightlife,schema:LocalBusiness
+4bf58dd8d48988d1d6941735,Strip Club,schema:AdultEntertainment
+4d4b7105d754a06377d81259,Outdoors & Recreation,schema:Place
+4f4528bc4b90abdf24c9de85,Athletics & Sports,schema:SportsActivityLocation
+52e81612bcbc57f1066b7a2b,Badminton Court,schema:SportsActivityLocation
+4bf58dd8d48988d1e8941735,Baseball Field,schema:SportsActivityLocation
+4bf58dd8d48988d1e1941735,Basketball Court,schema:SportsActivityLocation
+52e81612bcbc57f1066b7a2f,Bowling Green,schema:BowlingAlley
+56aa371be4b08b9a8d57351a,Curling Ice,schema:SportsActivityLocation
+4bf58dd8d48988d1e6941735,Golf Course,schema:GolfCourse
+58daa1558bbb0b01f18ec1b0,Golf Driving Range,schema:GolfCourse
+4bf58dd8d48988d175941735,Gym / Fitness Center,schema:HealthClub
+52f2ab2ebcbc57f1066b8b47,Boxing Gym,schema:ExerciseGym
+503289d391d4c4b30a586d6a,Climbing Gym,schema:ExerciseGym
+52f2ab2ebcbc57f1066b8b49,Cycle Studio,schema:ExerciseGym
+4bf58dd8d48988d105941735,Gym Pool,schema:PublicSwimmingPool
+52f2ab2ebcbc57f1066b8b48,Gymnastics Gym,schema:ExerciseGym
+4bf58dd8d48988d176941735,Gym,schema:ExerciseGym
+4bf58dd8d48988d101941735,Martial Arts Dojo,schema:ExerciseGym
+58daa1558bbb0b01f18ec203,Outdoor Gym,schema:ExerciseGym
+5744ccdfe4b0c0459246b4b2,Pilates Studio,schema:ExerciseGym
+4bf58dd8d48988d106941735,Track,schema:SportsActivityLocation
+590a0744340a5803fd8508c3,Weight Loss Center,schema:HealthClub
+4bf58dd8d48988d102941735,Yoga Studio,schema:ExerciseGym
+4f452cd44b9081a197eba860,Hockey Field,schema:SportsActivityLocation
+56aa371be4b08b9a8d57352c,Hockey Rink,schema:SportsActivityLocation
+5032829591d4c4b30a586d5e,Paintball Field,schema:SportsActivityLocation
+52e81612bcbc57f1066b7a2c,Rugby Pitch,schema:SportsActivityLocation
+4bf58dd8d48988d167941735,Skate Park,schema:SportsActivityLocation
+4bf58dd8d48988d168941735,Skating Rink,schema:SportsActivityLocation
+4cce455aebf7b749d5e191f5,Soccer Field,schema:SportsActivityLocation
+52e81612bcbc57f1066b7a2e,Sports Club,schema:SportsClub
+52e81612bcbc57f1066b7a2d,Squash Court,schema:SportsActivityLocation
+4e39a956bd410d7aed40cbc3,Tennis Court,schema:TennisComplex
+4eb1bf013b7b6f98df247e07,Volleyball Court,schema:SportsActivityLocation
+52e81612bcbc57f1066b7a28,Bathing Area,schema:SportsActivityLocation
+56aa371be4b08b9a8d573544,Bay,schema:BodyOfWater
+4bf58dd8d48988d1e2941735,Beach,schema:Beach
+52e81612bcbc57f1066b7a30,Nudist Beach,schema:Beach
+4bf58dd8d48988d1e3941735,Surf Spot,schema:SportsActivityLocation
+56aa371be4b08b9a8d57355e,Bike Trail,schema:SportsActivityLocation
+52e81612bcbc57f1066b7a22,Botanical Garden,schema:LocalBusiness
+4bf58dd8d48988d1df941735,Bridge,schema:Bridge
+4bf58dd8d48988d1e4941735,Campground,schema:RVPark
+56aa371be4b08b9a8d57353b,Canal Lock,schema:LocalBusiness
+56aa371be4b08b9a8d573562,Canal,schema:Canal
+50aaa49e4b90af0d42d5de11,Castle,schema:LandmarksOrHistoricalBuildings
+56aa371be4b08b9a8d573511,Cave,schema:LocalBusiness
+4bf58dd8d48988d15c941735,Cemetery,schema:Cemetery
+52e81612bcbc57f1066b7a12,Dive Spot,schema:SportsActivityLocation
+4bf58dd8d48988d1e5941735,Dog Run,schema:SportsActivityLocation
+4bf58dd8d48988d15b941735,Farm,schema:LocalBusiness
+4bf58dd8d48988d15f941735,Field,schema:Landform
+52e81612bcbc57f1066b7a0f,Fishing Spot,schema:SportsActivityLocation
+52e81612bcbc57f1066b7a23,Forest,schema:Landform
+56aa371be4b08b9a8d573547,Fountain,schema:CivicStructure
+4bf58dd8d48988d15a941735,Garden,schema:LocalBusiness
+52e81612bcbc57f1066b7a11,Gun Range,schema:SportsActivityLocation
+4bf58dd8d48988d1e0941735,Harbor / Marina,schema:Landform
+5bae9231bedf3950379f89cd,Hill,schema:Landform
+4bf58dd8d48988d160941735,Hot Spring,schema:Landform
+5744ccdfe4b0c0459246b4b5,Indoor Play Area,schema:Playground
+50aaa4314b90af0d42d5de10,Island,schema:Landform
+4bf58dd8d48988d161941735,Lake,schema:LakeBodyOfWater
+4bf58dd8d48988d15d941735,Lighthouse,schema:CivicStructure
+55a5a1ebe4b013909087cb77,Mountain Hut,schema:Mountain
+4eb1d4d54b900d56c88a45fc,Mountain,schema:Mountain
+52e81612bcbc57f1066b7a21,National Park,schema:Park
+52e81612bcbc57f1066b7a13,Nature Preserve,schema:Park
+4bf58dd8d48988d162941735,Other Great Outdoors,schema:Place
+52e81612bcbc57f1066b7a14,Palace,schema:CivicStructure
+4bf58dd8d48988d163941735,Park,schema:Park
+52e81612bcbc57f1066b7a25,Pedestrian Plaza,schema:CivicStructure
+4bf58dd8d48988d1e7941735,Playground,schema:Playground
+4bf58dd8d48988d164941735,Plaza,schema:CivicStructure
+4bf58dd8d48988d15e941735,Pool,schema:PublicSwimmingPool
+52e81612bcbc57f1066b7a29,Rafting,schema:SportsActivityLocation
+52e81612bcbc57f1066b7a26,Recreation Center,schema:CivicStructure
+56aa371be4b08b9a8d573541,Reservoir,schema:Reservoir
+4eb1d4dd4b900d56c88a45fd,River,schema:RiverBodyOfWater
+50328a4b91d4c4b30a586d6b,Rock Climbing Spot,schema:SportsActivityLocation
+4bf58dd8d48988d133951735,Roof Deck,schema:CivicStructure
+4bf58dd8d48988d165941735,Scenic Lookout,schema:TouristAttraction
+4bf58dd8d48988d166941735,Sculpture Garden,schema:LocalBusiness
+4bf58dd8d48988d1e9941735,Ski Area,schema:SkiResort
+4bf58dd8d48988d1ea941735,Apres Ski Bar,schema:BarOrPub
+4eb1c0ed3b7b52c0e1adc2ea,Ski Chairlift,schema:SkiResort
+4bf58dd8d48988d1ec941735,Ski Chalet,schema:SkiResort
+4bf58dd8d48988d1eb941735,Ski Lodge,schema:SkiResort
+4eb1c0f63b7b52c0e1adc2eb,Ski Trail,schema:SkiResort
+58daa1558bbb0b01f18ec1b9,Skydiving Drop Zone,schema:SportsActivityLocation
+4eb1baf03b7b2c5b1d4306ca,Stables,schema:SportsActivityLocation
+5bae9231bedf3950379f89d0,State / Provincial Park,schema:Park
+530e33ccbcbc57f1066bbfe4,States & Municipalities,schema:AdministrativeArea
+50aa9e094b90af0d42d5de0d,City,schema:City
+5345731ebcbc57f1066c39b2,County,schema:AdministrativeArea
+530e33ccbcbc57f1066bbff7,Country,schema:Country
+4f2a25ac4b909258e854f55f,Neighborhood,schema:AdministrativeArea
+530e33ccbcbc57f1066bbff8,State,schema:State
+530e33ccbcbc57f1066bbff3,Town,schema:AdministrativeArea
+530e33ccbcbc57f1066bbff9,Village,schema:AdministrativeArea
+52e81612bcbc57f1066b7a10,Summer Camp,schema:Campground
+4bf58dd8d48988d159941735,Trail,schema:SportsActivityLocation
+52e81612bcbc57f1066b7a24,Tree,schema:TouristAttraction
+4bf58dd8d48988d1de941735,Vineyard,schema:Landform
+5032848691d4c4b30a586d61,Volcano,schema:Volcano
+56aa371be4b08b9a8d573560,Waterfall,schema:Waterfall
+56aa371be4b08b9a8d5734c3,Waterfront,schema:TouristAttraction
+4fbc1be21983fc883593e321,Well,schema:CivicStructure
+5bae9231bedf3950379f89c7,Windmill,schema:CivicStructure
+4d4b7105d754a06375d81259,Professional & Other Places,schema:ProfessionalService
+4e52d2d203646f7c19daa8ae,Animal Shelter,schema:AnimalShelter
+58daa1558bbb0b01f18ec1d6,Art Studio,schema:LocalBusiness
+4bf58dd8d48988d173941735,Auditorium,schema:MusicVenue
+56aa371be4b08b9a8d5734cf,Ballroom,schema:LocalBusiness
+4bf58dd8d48988d130941735,Building,schema:CivicStructure
+56aa371be4b08b9a8d573517,Business Center,schema:LocalBusiness
+52e81612bcbc57f1066b7a35,Club House,schema:EntertainmentBusiness
+52e81612bcbc57f1066b7a34,Community Center,schema:CivicStructure
+4bf58dd8d48988d1ff931735,Convention Center,schema:EventVenue
+4bf58dd8d48988d100941735,Meeting Room,schema:CivicStructure
+52e81612bcbc57f1066b7a32,Cultural Center,schema:CivicStructure
+4e0e22f5a56208c4ea9a85a0,Distillery,schema:FoodEstablishment
+52e81612bcbc57f1066b7a37,Distribution Center,schema:LocalBusiness
+4bf58dd8d48988d171941735,Event Space,schema:EventVenue
+56aa371be4b08b9a8d57356a,Outdoor Event Space,schema:EventVenue
+4eb1bea83b7b6f98df247e06,Factory,schema:LocalBusiness
+4eb1daf44b900d56c88a4600,Fair,schema:EventVenue
+4f4534884b9074f6e4fb0174,Funeral Home,schema:LocalBusiness
+4bf58dd8d48988d126941735,Government Building,schema:GovernmentOffice
+4bf58dd8d48988d12a941735,Capitol Building,schema:LegislativeBuilding
+4bf58dd8d48988d129941735,City Hall,schema:CityHall
+4bf58dd8d48988d12b941735,Courthouse,schema:Courthouse
+4bf58dd8d48988d12c951735,Embassy / Consulate,schema:Embassy
+4bf58dd8d48988d12c941735,Fire Station,schema:FireStation
+4bf58dd8d48988d12d941735,Monument / Landmark,schema:LandmarksOrHistoricalBuildings
+4bf58dd8d48988d12e941735,Police Station,schema:PoliceStation
+52e81612bcbc57f1066b7a38,Town Hall,schema:CityHall
+56aa371be4b08b9a8d5734d7,Industrial Estate,schema:LocalBusiness
+5744ccdfe4b0c0459246b4d6,Laboratory,schema:LocalBusiness
+4bf58dd8d48988d12f941735,Library,schema:Library
+4bf58dd8d48988d104941735,Medical Center,schema:LocalBusiness
+52e81612bcbc57f1066b7a3b,Acupuncturist,schema:LocalBusiness
+52e81612bcbc57f1066b7a3c,Alternative Healer,schema:LocalBusiness
+52e81612bcbc57f1066b7a3a,Chiropractor,schema:LocalBusiness
+4bf58dd8d48988d178941735,Dentist's Office,schema:Dentist
+4bf58dd8d48988d177941735,Doctor's Office,schema:LocalBusiness
+4bf58dd8d48988d194941735,Emergency Room,schema:EmergencyService
+522e32fae4b09b556e370f19,Eye Doctor,schema:LocalBusiness
+4bf58dd8d48988d196941735,Hospital,schema:Hospital
+58daa1558bbb0b01f18ec1f7,Hospital Ward,schema:Hospital
+56aa371be4b08b9a8d5734ff,Maternity Clinic,schema:LocalBusiness
+4f4531b14b9074f6e4fb0103,Medical Lab,schema:LocalBusiness
+52e81612bcbc57f1066b7a39,Mental Health Office,schema:LocalBusiness
+58daa1558bbb0b01f18ec1d0,Nutritionist,schema:LocalBusiness
+5744ccdfe4b0c0459246b4af,Physical Therapist,schema:LocalBusiness
+56aa371be4b08b9a8d57351d,Rehab Center,schema:LocalBusiness
+56aa371be4b08b9a8d573526,Urgent Care Center,schema:EmergencyService
+4d954af4a243a5684765b473,Veterinarian,schema:LocalBusiness
+4e52adeebd41615f56317744,Military Base,schema:DefenceEstablishment
+50328a8e91d4c4b30a586d6c,Non-Profit,schema:LocalBusiness
+5744ccdfe4b0c0459246b4d9,Observatory,schema:LocalBusiness
+4bf58dd8d48988d124941735,Office,schema:LocalBusiness
+52e81612bcbc57f1066b7a3d,Advertising Agency,schema:LocalBusiness
+5032764e91d4c4b30a586d5a,Campaign Office,schema:LocalBusiness
+4bf58dd8d48988d127941735,Conference Room,schema:LocalBusiness
+5665ef1d498ec706735f0e59,Corporate Amenity,schema:LocalBusiness
+54f4ba06498e2cf5561da814,Corporate Cafeteria,schema:CafeOrCoffeeShop
+5665c7b9498e7d8a4f2c0f06,Corporate Coffee Shop,schema:CafeOrCoffeeShop
+4bf58dd8d48988d174941735,Coworking Space,schema:LocalBusiness
+4bf58dd8d48988d125941735,Tech Startup,schema:LocalBusiness
+4c38df4de52ce0d596b336e1,Parking,schema:ParkingFacility
+4bf58dd8d48988d172941735,Post Office,schema:PostOffice
+58daa1548bbb0b01f18ec1a9,Power Plant,schema:LocalBusiness
+5310b8e5bcbc57f1066bcbf1,Prison,schema:CivicStructure
+5032856091d4c4b30a586d63,Radio Station,schema:RadioStation
+52f2ab2ebcbc57f1066b8b57,Recruiting Agency,schema:LocalBusiness
+58daa1558bbb0b01f18ec1b2,Research Station,schema:LocalBusiness
+4bf58dd8d48988d13b941735,School,schema:CivicStructure
+56aa371ce4b08b9a8d573570,Adult Education Center,schema:CivicStructure
+52e81612bcbc57f1066b7a43,Circus School,schema:CivicStructure
+58daa1558bbb0b01f18ec200,Cooking School,schema:CivicStructure
+52e81612bcbc57f1066b7a42,Driving School,schema:CivicStructure
+4f4533804b9074f6e4fb0105,Elementary School,schema:CivicStructure
+52e81612bcbc57f1066b7a49,Flight School,schema:CivicStructure
+4bf58dd8d48988d13d941735,High School,schema:CivicStructure
+52e81612bcbc57f1066b7a48,Language School,schema:CivicStructure
+4f4533814b9074f6e4fb0106,Middle School,schema:CivicStructure
+4f04b10d2fb6e1c99f3db0be,Music School,schema:CivicStructure
+4f4533814b9074f6e4fb0107,Nursery School,schema:CivicStructure
+52e81612bcbc57f1066b7a45,Preschool,schema:CivicStructure
+52e81612bcbc57f1066b7a46,Private School,schema:CivicStructure
+52e81612bcbc57f1066b7a47,Religious School,schema:CivicStructure
+52e81612bcbc57f1066b7a44,Swim School,schema:CivicStructure
+52e81612bcbc57f1066b7a33,Social Club,schema:CivicStructure
+4bf58dd8d48988d131941735,Spiritual Center,schema:PlaceOfWorship
+52e81612bcbc57f1066b7a3e,Buddhist Temple,schema:BuddhistTemple
+58daa1558bbb0b01f18ec1eb,Cemevi,schema:PlaceOfWorship
+4bf58dd8d48988d132941735,Church,schema:Church
+56aa371be4b08b9a8d5734fc,Confucian Temple,schema:PlaceOfWorship
+52e81612bcbc57f1066b7a3f,Hindu Temple,schema:HinduTemple
+5744ccdfe4b0c0459246b4ac,Kingdom Hall,schema:PlaceOfWorship
+52e81612bcbc57f1066b7a40,Monastery,schema:PlaceOfWorship
+4bf58dd8d48988d138941735,Mosque,schema:Mosque
+52e81612bcbc57f1066b7a41,Prayer Room,schema:PlaceOfWorship
+4eb1d80a4b900d56c88a45ff,Shrine,schema:PlaceOfWorship
+5bae9231bedf3950379f89c9,Sikh Temple,schema:PlaceOfWorship
+4bf58dd8d48988d139941735,Synagogue,schema:Synagogue
+4bf58dd8d48988d13a941735,Temple,schema:PlaceOfWorship
+56aa371be4b08b9a8d5734f6,Terreiro,schema:PlaceOfWorship
+52e81612bcbc57f1066b7a31,TV Station,schema:TelevisionStation
+4cae28ecbf23941eb1190695,Voting Booth,schema:CivicStructure
+52e81612bcbc57f1066b7a36,Warehouse,schema:LocalBusiness
+58daa1558bbb0b01f18ec1ac,Waste Facility,schema:RecyclingCenter
+56aa371be4b08b9a8d5734c5,Wedding Hall,schema:CivicStructure
+4bf58dd8d48988d14b941735,Winery,schema:Winery
+4e67e38e036454776db1fb3a,Residence,schema:Residence
+5032891291d4c4b30a586d68,Assisted Living,schema:Accommodation
+4bf58dd8d48988d103941735,Home (private),schema:House
+4f2a210c4b9023bd5841ed28,Housing Development,schema:ApartmentComplex
+4d954b06a243a5684965b473,Residential Building (Apartment / Condo),schema:ApartmentComplex
+52f2ab2ebcbc57f1066b8b55,Trailer Park,schema:RVPark
+4d4b7105d754a06378d81259,Shop & Service,schema:LocalBusiness
+52f2ab2ebcbc57f1066b8b56,ATM,schema:AutomatedTeller
+5267e446e4b0ec79466e48c4,Adult Boutique,schema:Store
+4bf58dd8d48988d116951735,Antique Shop,schema:Store
+4bf58dd8d48988d127951735,Arts & Crafts Store,schema:Store
+52f2ab2ebcbc57f1066b8b43,Astrologer,schema:LocalBusiness
+4eb1c1623b7b52c0e1adc2ec,Auto Dealership,schema:AutoDealer
+52f2ab2ebcbc57f1066b8b44,Auto Garage,schema:AutoRepair
+56aa371be4b08b9a8d5734d3,Auto Workshop,schema:AutoRepair
+4bf58dd8d48988d124951735,Automotive Shop,schema:AutoPartsStore
+52f2ab2ebcbc57f1066b8b32,Baby Store,schema:Store
+4bf58dd8d48988d10a951735,Bank,schema:BankOrCreditUnion
+52e81612bcbc57f1066b7a27,Bath House,schema:CivicStructure
+56aa371be4b08b9a8d5734cb,Batik Shop,schema:Store
+52f2ab2ebcbc57f1066b8b40,Betting Shop,schema:Store
+52f2ab2ebcbc57f1066b8b42,Big Box Store,schema:DepartmentStore
+4bf58dd8d48988d115951735,Bike Shop,schema:BikeStore
+4bf58dd8d48988d1f1941735,Board Shop,schema:SportingGoodsStore
+4bf58dd8d48988d114951735,Bookstore,schema:BookStore
+4bf58dd8d48988d11a951735,Bridal Shop,schema:ClothingStore
+5453de49498eade8af355881,Business Service,schema:ProfessionalService
+4eb1bdf03b7b55596b4a7491,Camera Store,schema:ElectronicsStore
+4bf58dd8d48988d117951735,Candy Store,schema:GroceryStore
+4f04ae1f2fb6e1c99f3db0ba,Car Wash,schema:AutoWash
+52f2ab2ebcbc57f1066b8b2a,Carpet Store,schema:HomeGoodsStore
+52f2ab2ebcbc57f1066b8b2d,Check Cashing Service,schema:FinancialService
+5744ccdfe4b0c0459246b4c7,Child Care Service,schema:ChildCare
+4f4532974b9074f6e4fb0104,Daycare,schema:ChildCare
+52f2ab2ebcbc57f1066b8b31,Chocolate Shop,schema:GroceryStore
+4bf58dd8d48988d103951735,Clothing Store,schema:ClothingStore
+4bf58dd8d48988d102951735,Accessories Store,schema:ClothingStore
+4bf58dd8d48988d104951735,Boutique,schema:ClothingStore
+4bf58dd8d48988d105951735,Kids Store,schema:ClothingStore
+4bf58dd8d48988d109951735,Lingerie Store,schema:ClothingStore
+4bf58dd8d48988d106951735,Men's Store,schema:MensClothingStore
+4bf58dd8d48988d107951735,Shoe Store,schema:ShoeStore
+4bf58dd8d48988d108951735,Women's Store,schema:ClothingStore
+52f2ab2ebcbc57f1066b8b18,Comic Shop,schema:BookStore
+5454144b498ec1f095bff2f2,Construction & Landscaping,schema:HomeAndConstructionBusiness
+4d954b0ea243a5684a65b473,Convenience Store,schema:ConvenienceStore
+4bf58dd8d48988d10c951735,Cosmetics Shop,schema:HealthAndBeautyBusiness
+52f2ab2ebcbc57f1066b8b17,Costume Shop,schema:ClothingStore
+5032850891d4c4b30a586d62,Credit Union,schema:BankOrCreditUnion
+5744ccdfe4b0c0459246b4be,Currency Exchange,schema:FinancialService
+4bf58dd8d48988d1f6941735,Department Store,schema:DepartmentStore
+4bf58dd8d48988d1f4941735,Design Studio,schema:LocalBusiness
+52dea92d3cf9994f4e043dbb,Discount Store,schema:WholesaleStore
+52f2ab2ebcbc57f1066b8b1a,Dive Shop,schema:SportingGoodsStore
+5745c2e4498e11e7bccabdbd,Drugstore,schema:Store
+52f2ab2ebcbc57f1066b8b1d,Dry Cleaner,schema:DryCleaningOrLaundry
+5032872391d4c4b30a586d64,EV Charging Station,schema:LocalBusiness
+4bf58dd8d48988d122951735,Electronics Store,schema:ElectronicsStore
+56aa371be4b08b9a8d573554,Entertainment Service,schema:EntertainmentBusiness
+5454152e498ef71e2b9132c6,Event Service,schema:EventVenue
+52f2ab2ebcbc57f1066b8b26,Fabric Shop,schema:Store
+56aa371be4b08b9a8d573523,Film Studio,schema:LocalBusiness
+503287a291d4c4b30a586d65,Financial or Legal Service,schema:LocalBusiness
+52f2ab2ebcbc57f1066b8b3a,Fireworks Store,schema:Store
+52f2ab2ebcbc57f1066b8b16,Fishing Store,schema:GroceryStore
+4bf58dd8d48988d1f7941735,Flea Market,schema:Store
+56aa371be4b08b9a8d573505,Floating Market,schema:Store
+4bf58dd8d48988d11b951735,Flower Shop,schema:Florist
+4bf58dd8d48988d1f9941735,Food & Drink Shop,schema:GroceryStore
+5370f356bcbc57f1066c94c2,Beer Store,schema:GroceryStore
+4bf58dd8d48988d11d951735,Butcher,schema:GroceryStore
+4bf58dd8d48988d11e951735,Cheese Shop,schema:GroceryStore
+58daa1558bbb0b01f18ec1ca,Dairy Store,schema:GroceryStore
+4bf58dd8d48988d1fa941735,Farmers Market,schema:GroceryStore
+4bf58dd8d48988d10e951735,Fish Market,schema:GroceryStore
+56aa371be4b08b9a8d573550,Food Service,schema:GroceryStore
+4bf58dd8d48988d1f5941735,Gourmet Shop,schema:GroceryStore
+4bf58dd8d48988d118951735,Grocery Store,schema:GroceryStore
+50aa9e744b90af0d42d5de0e,Health Food Store,schema:GroceryStore
+58daa1558bbb0b01f18ec1e8,Kuruyemişçi,schema:GroceryStore
+4bf58dd8d48988d186941735,Liquor Store,schema:LiquorStore
+52f2ab2ebcbc57f1066b8b45,Organic Grocery,schema:GroceryStore
+56aa371be4b08b9a8d573564,Sausage Shop,schema:GroceryStore
+53e0feef498e5aac066fd8a9,Street Food Gathering,schema:FoodEvent
+52f2ab2ebcbc57f1066b8b46,Supermarket,schema:DepartmentStore
+58daa1558bbb0b01f18ec1e5,Turşucu,schema:Store
+4bf58dd8d48988d119951735,Wine Shop,schema:LiquorStore
+52f2ab2ebcbc57f1066b8b24,Frame Store,schema:Store
+52f2ab2ebcbc57f1066b8b1c,Fruit & Vegetable Store,schema:GroceryStore
+4bf58dd8d48988d1f8941735,Furniture / Home Store,schema:FurnitureStore
+55888a5a498e782e3303b43a,Lighting Store,schema:Store
+4bf58dd8d48988d18d941735,Gaming Cafe,schema:EntertainmentBusiness
+4eb1c0253b7b52c0e1adc2e9,Garden Center,schema:GardenStore
+4bf58dd8d48988d113951735,Gas Station,schema:GasStation
+4bf58dd8d48988d128951735,Gift Shop,schema:Store
+52f2ab2ebcbc57f1066b8b19,Gun Shop,schema:Store
+4bf58dd8d48988d112951735,Hardware Store,schema:HardwareStore
+54541900498ea6ccd0202697,Health & Beauty Service,schema:HealthAndBeautyBusiness
+52f2ab2ebcbc57f1066b8b2c,Herbs & Spices Store,schema:GroceryStore
+4bf58dd8d48988d1fb941735,Hobby Shop,schema:HobbyShop
+545419b1498ea6ccd0202f58,Home Service,schema:HomeAndConstructionBusiness
+50aaa5234b90af0d42d5de12,Hunting Supply,schema:Store
+52f2ab2ebcbc57f1066b8b36,IT Services,schema:LocalBusiness
+58daa1558bbb0b01f18ec1f1,Insurance Office,schema:InsuranceAgency
+4bf58dd8d48988d1f0941735,Internet Cafe,schema:InternetCafe
+4bf58dd8d48988d111951735,Jewelry Store,schema:JewelryStore
+58daa1558bbb0b01f18ec1b4,Kitchen Supply Store,schema:HomeGoodsStore
+52f2ab2ebcbc57f1066b8b25,Knitting Store,schema:Store
+52f2ab2ebcbc57f1066b8b33,Laundromat,schema:DryCleaningOrLaundry
+4bf58dd8d48988d1fc941735,Laundry Service,schema:DryCleaningOrLaundry
+52f2ab2ebcbc57f1066b8b3f,Lawyer,schema:LegalService
+52f2ab2ebcbc57f1066b8b2b,Leather Goods Store,schema:ClothingStore
+52f2ab2ebcbc57f1066b8b1e,Locksmith,schema:Locksmith
+52f2ab2ebcbc57f1066b8b38,Lottery Retailer,schema:Store
+52f2ab2ebcbc57f1066b8b29,Luggage Store,schema:Store
+52c71aaf3cf9994f4e043d17,Marijuana Dispensary,schema:Store
+50be8ee891d4fa8dcc7199a7,Market,schema:Store
+52f2ab2ebcbc57f1066b8b3c,Massage Studio,schema:HealthAndBeautyBusiness
+52f2ab2ebcbc57f1066b8b27,Mattress Store,schema:Store
+58daa1558bbb0b01f18ec206,Medical Supply Store,schema:Store
+4bf58dd8d48988d1ff941735,Miscellaneous Shop,schema:Store
+4f04afc02fb6e1c99f3db0bc,Mobile Phone Shop,schema:MobilePhoneStore
+56aa371be4b08b9a8d57354a,Mobility Store,schema:Store
+5032833091d4c4b30a586d60,Motorcycle Shop,schema:MotorcycleDealer
+59d79d6b2e268052fa2a3332,Motorsports Shop,schema:SportingGoodsStore
+4bf58dd8d48988d1fe941735,Music Store,schema:MusicStore
+4f04aa0c2fb6e1c99f3db0b8,Nail Salon,schema:NailSalon
+4f04ad622fb6e1c99f3db0b9,Newsstand,schema:Store
+5ae95d208a6f17002ce792b2,Notary,schema:Notary
+4d954afda243a5684865b473,Optical Shop,schema:Store
+52f2ab2ebcbc57f1066b8b2f,Other Repair Shop,schema:LocalBusiness
+52f2ab2ebcbc57f1066b8b22,Outdoor Supply Store,schema:SportingGoodsStore
+5744ccdfe4b0c0459246b4df,Outlet Mall,schema:OutletStore
+52f2ab2ebcbc57f1066b8b35,Outlet Store,schema:OutletStore
+4bf58dd8d48988d121951735,Paper / Office Supplies Store,schema:OfficeEquipmentStore
+52f2ab2ebcbc57f1066b8b34,Pawn Shop,schema:PawnShop
+52f2ab2ebcbc57f1066b8b23,Perfume Shop,schema:Store
+5032897c91d4c4b30a586d69,Pet Service,schema:LocalBusiness
+4bf58dd8d48988d100951735,Pet Store,schema:PetStore
+4bf58dd8d48988d10f951735,Pharmacy,schema:Store
+4eb1bdde3b7b55596b4a7490,Photography Lab,schema:LocalBusiness
+554a5e17498efabeda6cc559,Photography Studio,schema:LocalBusiness
+52f2ab2ebcbc57f1066b8b20,Piercing Parlor,schema:Store
+52f2ab2ebcbc57f1066b8b3d,Pop-Up Shop,schema:Store
+52f2ab2ebcbc57f1066b8b28,Print Shop,schema:Store
+5744ccdfe4b0c0459246b4c4,Public Bathroom,schema:CivicStructure
+5032885091d4c4b30a586d66,Real Estate Office,schema:RealEstateAgent
+4bf58dd8d48988d10d951735,Record Shop,schema:MusicStore
+52f2ab2ebcbc57f1066b8b37,Recording Studio,schema:LocalBusiness
+4f4531084b9074f6e4fb0101,Recycling Facility,schema:RecyclingCenter
+56aa371be4b08b9a8d573552,Rental Service,schema:LocalBusiness
+4bf58dd8d48988d110951735,Salon / Barbershop,schema:HairSalon
+58daa1558bbb0b01f18ec1ae,Sauna / Steam Room,schema:HealthAndBeautyBusiness
+52f2ab2ebcbc57f1066b8b1f,Shipping Store,schema:LocalBusiness
+52f2ab2ebcbc57f1066b8b39,Shoe Repair,schema:LocalBusiness
+4bf58dd8d48988d1fd941735,Shopping Mall,schema:ShoppingCenter
+5744ccdfe4b0c0459246b4dc,Shopping Plaza,schema:ShoppingCenter
+5bae9231bedf3950379f89d2,Skate Shop,schema:SportingGoodsStore
+56aa371be4b08b9a8d573566,Ski Shop,schema:SportingGoodsStore
+4bf58dd8d48988d123951735,Smoke Shop,schema:Store
+52f2ab2ebcbc57f1066b8b41,Smoothie Shop,schema:GroceryStore
+52f2ab2ebcbc57f1066b8b1b,Souvenir Shop,schema:Store
+4bf58dd8d48988d1ed941735,Spa,schema:DaySpa
+4bf58dd8d48988d1f2941735,Sporting Goods Shop,schema:SportingGoodsStore
+52f2ab2ebcbc57f1066b8b21,Stationery Store,schema:OfficeEquipmentStore
+4f04b1572fb6e1c99f3db0bf,Storage Facility,schema:SelfStorage
+5744ccdfe4b0c0459246b4cd,Supplement Shop,schema:Store
+5032781d91d4c4b30a586d5b,Tailor Shop,schema:ClothingStore
+4d1cf8421a97d635ce361c31,Tanning Salon,schema:BeautySalon
+4bf58dd8d48988d1de931735,Tattoo Parlor,schema:TattooParlor
+4bf58dd8d48988d101951735,Thrift / Vintage Store,schema:Store
+4bf58dd8d48988d1f3941735,Toy / Game Store,schema:ToyStore
+4f04b08c2fb6e1c99f3db0bd,Travel Agency,schema:TravelAgency
+52f2ab2ebcbc57f1066b8b30,Used Bookstore,schema:BookStore
+56aa371be4b08b9a8d57355c,Vape Store,schema:Store
+4bf58dd8d48988d10b951735,Video Game Store,schema:Store
+4bf58dd8d48988d126951735,Video Store,schema:MovieRentalStore
+52e816a6bcbc57f1066b7a54,Warehouse Store,schema:DepartmentStore
+52f2ab2ebcbc57f1066b8b2e,Watch Shop,schema:JewelryStore
+4d4b7105d754a06379d81259,Travel & Transport,schema:CivicStructure
+4bf58dd8d48988d1ed931735,Airport,schema:Airport
+4bf58dd8d48988d1ef931735,Airport Food Court,schema:FoodEstablishment
+4bf58dd8d48988d1f0931735,Airport Gate,schema:Airport
+4eb1bc533b7b2c5b1d4306cb,Airport Lounge,schema:Airport
+56aa371be4b08b9a8d57352f,Airport Service,schema:Airport
+4bf58dd8d48988d1eb931735,Airport Terminal,schema:Airport
+4bf58dd8d48988d1ec931735,Airport Tram,schema:Airport
+5744ccdfe4b0c0459246b4e5,Baggage Claim,schema:Airport
+4bf58dd8d48988d1f7931735,Plane,schema:Airport
+5744ccdfe4b0c0459246b4e8,Baggage Locker,schema:LocalBusiness
+4e4c9077bd41f78e849722f9,Bike Rental / Bike Share,schema:LocalBusiness
+5744ccdfe4b0c0459246b4c1,Boat Rental,schema:LocalBusiness
+4bf58dd8d48988d12d951735,Boat or Ferry,schema:CivicStructure
+52f2ab2ebcbc57f1066b8b4b,Border Crossing,schema:CivicStructure
+4bf58dd8d48988d1fe931735,Bus Station,schema:BusStation
+4bf58dd8d48988d12b951735,Bus Line,schema:BusStation
+52f2ab2ebcbc57f1066b8b4f,Bus Stop,schema:BusStop
+52f2ab2ebcbc57f1066b8b50,Cable Car,schema:CivicStructure
+55077a22498e5e9248869ba2,Cruise,schema:CivicStructure
+589ddde98ae3635c072819ee,Duty-free Shop,schema:Store
+4bf58dd8d48988d1f6931735,General Travel,schema:CivicStructure
+56aa371ce4b08b9a8d57356e,Heliport,schema:Airport
+4bf58dd8d48988d1fa931735,Hotel,schema:Hotel
+4bf58dd8d48988d1f8931735,Bed & Breakfast,schema:BedAndBreakfast
+4f4530a74b9074f6e4fb0100,Boarding House,schema:LodgingBusiness
+4bf58dd8d48988d1ee931735,Hostel,schema:Hostel
+4bf58dd8d48988d132951735,Hotel Pool,schema:Hotel
+5bae9231bedf3950379f89cb,Inn,schema:LodgingBusiness
+4bf58dd8d48988d1fb931735,Motel,schema:Motel
+4bf58dd8d48988d12f951735,Resort,schema:Resort
+56aa371be4b08b9a8d5734e1,Vacation Rental,schema:LodgingBusiness
+52f2ab2ebcbc57f1066b8b4c,Intersection,schema:CivicStructure
+4bf58dd8d48988d1fc931735,Light Rail Station,schema:SubwayStation
+4bf58dd8d48988d1fd931735,Metro Station,schema:SubwayStation
+4f2a23984b9023bd5841ed2c,Moving Target,schema:LocalBusiness
+4e74f6cabd41c4836eac4c31,Pier,schema:CivicStructure
+56aa371be4b08b9a8d57353e,Port,schema:CivicStructure
+52f2ab2ebcbc57f1066b8b53,RV Park,schema:RVPark
+4bf58dd8d48988d1ef941735,Rental Car Location,schema:AutoRental
+4d954b16a243a5684b65b473,Rest Area,schema:CivicStructure
+4bf58dd8d48988d1f9931735,Road,schema:CivicStructure
+53fca564498e1a175f32528b,Taxi Stand,schema:TaxiStand
+4bf58dd8d48988d130951735,Taxi,schema:TaxiStand
+52f2ab2ebcbc57f1066b8b4d,Toll Booth,schema:CivicStructure
+52f2ab2ebcbc57f1066b8b4e,Toll Plaza,schema:CivicStructure
+4f4530164b9074f6e4fb00ff,Tourist Information Center,schema:TouristInformationCenter
+4bf58dd8d48988d129951735,Train Station,schema:TrainStation
+4f4531504b9074f6e4fb0102,Platform,schema:TrainStation
+4bf58dd8d48988d12a951735,Train,schema:TrainStation
+52f2ab2ebcbc57f1066b8b51,Tram Station,schema:CivicStructure
+54541b70498ea6ccd0204bff,Transportation Service,schema:CivicStructure
+4f04b25d2fb6e1c99f3db0c0,Travel Lounge,schema:CivicStructure
+52f2ab2ebcbc57f1066b8b4a,Tunnel,schema:CivicStructure
+4bf58dd8d48988d1f9931735,Street,schema:CivicStructure
+4bf58dd8d48988d113951735,Gas Station / Garage,schema:GasStation
+4bf58dd8d48988d156941735,Malaysian Restaurant,schema:Restaurant
+4eb1c1623b7b52c0e1adc2ec,Car Dealership,schema:AutoDealer
+4bf58dd8d48988d1fc931735,Light Rail,schema:SubwayStation
+4f4528bc4b90abdf24c9de85,Athletic & Sport,schema:SportsActivityLocation
+5032848691d4c4b30a586d61,Volcanoes,schema:Volcano
+5745c2e4498e11e7bccabdbd,Drugstore / Pharmacy,schema:Store
+4bf58dd8d48988d159941735,Hiking Trail,schema:SportsActivityLocation
+4bf58dd8d48988d1fd931735,Subway,schema:SubwayStation
+4bf58dd8d48988d1fd941735,Mall,schema:ShoppingCenter
+4bf58dd8d48988d1ed941735,Spa / Massage,schema:DaySpa
+4eb1baf03b7b2c5b1d4306ca,Stable,schema:SportsActivityLocation
+512e7cae91d4cbb4e5efe0af,Frozen Yogurt,schema:FoodEstablishment
+512e7cae91d4cbb4e5efe0af,Yogurt,schema:FoodEstablishment
+4bf58dd8d48988d159941735,Trails,schema:SportsActivityLocation
+55a59bace4b013909087cb24,Ramen /  Noodle House,schema:Restaurant
+4e39a956bd410d7aed40cbc3,Tennis,schema:TennisComplex
+4bf58dd8d48988d12d951735,Ferry,schema:CivicStructure
+4bf58dd8d48988d16d941735,Caf,schema:CafeOrCoffeeShop

@@ -39,20 +39,24 @@ assert len(list(venues_set)) == len(venues_list)
 print("Loading", len(venues), "venues...")
 
 # load the category mapping
-cat_mapping = {}
+cat_id_mapping = {}
+cat_schema_mapping = {}
 
 with open('mapping.csv', encoding='utf-8') as fp:
     reader = csv.reader(fp, delimiter=',')
 
     for row in reader:
-        foursquare_cat = row[0]
-        schema_cat = row[1]
-        cat_mapping[foursquare_cat] = schema_cat
+        foursquare_id = row[0]
+        foursquare_cat = row[1]
+        schema_cat = row[2]
+
+        cat_id_mapping[foursquare_cat] = foursquare_id
+        cat_schema_mapping[foursquare_cat] = schema_cat
 
 cat_missing = False
 
 for venue_cat in venues_cat:
-    if venue_cat not in cat_mapping:
+    if venue_cat not in cat_schema_mapping:
         print(venue_cat)
         cat_missing = True
 
@@ -66,7 +70,8 @@ for venue_id in venues_list:
     venue_lon = venues[venue_id]['lon']
     coords.append((venue_lat, venue_lon))
 
-geo = rg.RGeocoder(mode=2, verbose=True, stream=io.StringIO(open('cities.csv', encoding='utf-8').read()))
+geo = rg.RGeocoder(mode=2, verbose=True, stream=io.StringIO(
+    open('cities.csv', encoding='utf-8').read()))
 venues_rg = geo.query(coords)
 
 for index, venue_id in enumerate(venues_list):
@@ -129,7 +134,8 @@ with open(f_checkins, encoding='utf-8') as fp:
             checkin_datetime = normalize_datetime(row[2])
             checkin_offset = normalize_offset(row[3])
 
-            checkin_timestamp = ciso8601.parse_datetime(checkin_datetime + checkin_offset)
+            checkin_timestamp = ciso8601.parse_datetime(
+                checkin_datetime + checkin_offset)
 
             initial_users.add(checkin_user)
 
@@ -202,9 +208,9 @@ def save_checkin(checkin, new_path=False):
 
     writer.writerow([sequence_counter,
                      users_out[checkin['user']],
-                     "http://foursquare.com/v/" + checkin['venue'],
-                     venues[checkin['venue']]['cat'],
-                     cat_mapping[venues[checkin['venue']]['cat']],
+                     "foursquare:" + checkin['venue'],
+                     cat_id_mapping[venues[checkin['venue']]['cat']],
+                     cat_schema_mapping[venues[checkin['venue']]['cat']],
                      venues[checkin['venue']]['city'],
                      venues[checkin['venue']]['cc'],
                      checkin['timestamp'].replace(second=0).isoformat()])
@@ -312,8 +318,10 @@ print("Number of original venues:", len(venues))
 print("Number of original users:", len(list(initial_users)))
 
 sorted_timestamp = sorted(checkins, key=lambda x: x['timestamp'])
-original_timedelta = sorted_timestamp[-1]['timestamp'] - sorted_timestamp[0]['timestamp']
-print("Timedelta between last and first checkin:", original_timedelta.days, "days")
+original_timedelta = sorted_timestamp[-1]['timestamp'] - \
+    sorted_timestamp[0]['timestamp']
+print("Timedelta between last and first checkin:",
+      original_timedelta.days, "days")
 print("First checkin timestamp:", sorted_timestamp[0]['timestamp'].isoformat())
 print("Last checkin timestamp:", sorted_timestamp[-1]['timestamp'].isoformat())
 
