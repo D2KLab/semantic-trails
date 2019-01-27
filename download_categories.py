@@ -1,11 +1,20 @@
+import csv
 import requests
 
+categories = {}
 
-def print_cat(root):
-    print(root['name'])
+
+def navigate_cat(root):
+    index = root['id']
+    name = root['name']
+
+    try:
+        categories[index].append(name)
+    except KeyError:
+        categories[index] = [name]
 
     for child in root['categories']:
-        print_cat(child)
+        navigate_cat(child)
 
 
 url = 'https://api.foursquare.com/v2/venues/categories'
@@ -16,8 +25,19 @@ params = dict(
     includeSupportedCC=True
 )
 
-resp = requests.get(url=url, params=params)
-data = resp.json()
+languages = ['en-US', 'fr-FR', 'it-IT']
 
-for root_cat in data['response']['categories']:
-    print_cat(root_cat)
+for language in languages:
+    headers = {"Accept-Language": language}
+
+    resp = requests.get(url=url, params=params, headers=headers)
+    data = resp.json()
+
+    for root_cat in data['response']['categories']:
+        navigate_cat(root_cat)
+
+with open('categories.csv', 'w', encoding='utf-8', newline='') as fp:
+    writer = csv.writer(fp)
+
+    for index in categories:
+        writer.writerow([index] + categories[index])
