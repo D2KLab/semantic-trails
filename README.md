@@ -24,6 +24,12 @@ We constructed the STDs by means of the `create_std.py` script. It requires two 
 
 The resulting datasets are available on [figshare](https://doi.org/10.6084/m9.figshare.7429076), together with a description of the output format.
 
+## RDF Conversion
+
+We convert the CSV datasets into RDF by using the `convert_rdf.py` script.
+The script takes one parameter, the name of the dataset (without the extension). Example: `python convert_rdf.py std_2013` will parse `std_2013.csv` and export it to `std_2013.ttl`.
+If a `categories.csv` file exists, it will also automatically attempt to open and parse it, process the categories, and export it as `categories.ttl`.
+
 ## Team
 
 - Diego Monti <diego.monti@polito.it>
