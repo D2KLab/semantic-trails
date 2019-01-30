@@ -26,9 +26,32 @@ The resulting datasets are available on [figshare](https://doi.org/10.6084/m9.fi
 
 ## RDF Conversion
 
-We converted the CSV datasets into RDF by using the `convert_rdf.py` script. The script takes one parameter, that is the name of the dataset without the extension. For example, `python convert_rdf.py std_2013` will parse `std_2013.csv` and export it to `std_2013.ttl`.
+We converted the CSV datasets into RDF by using the `convert_rdf.py` script. The script takes one parameter, that is the name of the dataset without the extension. For example, `python convert_rdf.py std_2013` will parse `std_2013.csv` and export it to `std_2013.ttl`. If a `categories.csv` file exists, it will also automatically attempt to open and parse it, process the categories, and then export it as `categories.ttl`.
 
-If a `categories.csv` file exists, it will also automatically attempt to open and parse it, process the categories, and then export it as `categories.ttl`.
+In the following, we provide an example of our [RDF model](rdf_model.svg).
+
+```
+<http://std.eurecom.fr/checkin/75d2860eb8ad49789ef63e69e898d03237c67df4> a schema:CheckInAction ;
+    schema:agent <http://std.eurecom.fr/user/1> ;
+    schema:location <http://www.foursquare.com/v/597190d44b78c57f67ddd616> ;
+    schema:result <http://std.eurecom.fr/trail/1> ;
+    schema:startTime "2017-10-03T14:44:00+03:00"^^xsd:dateTime .
+
+<http://std.eurecom.fr/user/1> a schema:Person .
+
+<http://www.foursquare.com/v/597190d44b78c57f67ddd616> a schema:CivicStructure,
+        schema:Place ;
+    dbo:category <http://std.eurecom.fr/category/4bf58dd8d48988d198941735> ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressCountry wd:Q43 ;
+            schema:addressLocality wd:Q894012 ] .
+
+<http://std.eurecom.fr/category/4bf58dd8d48988d198941735> a skos:Concept ;
+    rdfs:label "College Academic Building"@en,
+        "Bâtiment universitaire"@fr,
+        "Edificio universitario accademico"@it ;
+    rdfs:isDefinedBy <https://developer.foursquare.com/docs/resources/categories> .
+```
 
 ## Team
 
