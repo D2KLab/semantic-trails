@@ -1,6 +1,6 @@
 # Semantic Trails Datasets
 
-This repository contains the code used to generate the Semantic Trails Datasets (STDs). You can download the actual datasets from [figshare](https://doi.org/10.6084/m9.figshare.7429076), while you can query its RDF version at http://std.eurecom.fr/sparql.
+This repository contains the code used to generate the Semantic Trails Datasets (STDs). You can download the actual datasets from [figshare](https://doi.org/10.6084/m9.figshare.7429076), while you can query their RDF version at http://std.eurecom.fr/sparql.
 
 ## Cities
 
