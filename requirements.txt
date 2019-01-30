@@ -1,6 +1,7 @@
 ciso8601
 haversine
 numpy
+rdflib
 requests
 reverse_geocoder
 sparqlwrapper
