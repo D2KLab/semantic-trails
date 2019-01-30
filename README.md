@@ -1,6 +1,6 @@
 # Semantic Trails Datasets
 
-This repository contains the code used to generate the Semantic Trails Datasets (STDs). You can download the actual datasets from [figshare](https://doi.org/10.6084/m9.figshare.7429076).
+This repository contains the code used to generate the Semantic Trails Datasets (STDs). You can download the actual datasets from [figshare](https://doi.org/10.6084/m9.figshare.7429076), while you can query its RDF version at http://std.eurecom.fr/sparql.
 
 ## Cities
 
@@ -16,7 +16,7 @@ We mapped the categories of the [Foursquare taxonomy](https://developer.foursqua
 
 The script `download_categories.py` was used to download the identifiers of such categories from Foursquare, as well as their translations in English, French, and Italian. The obtained categories are listed in the file `categories.csv`. If necessary, it can be updated by running `python download_categories.py`.
 
-The result of the mapping process is available in the `mapping.csv` file. The first column represents the Foursquare category identifier, the second one its English translation, while the third one the corresponding Schema URI. This file also contains some category names that were previously used by Foursquare, which we merged with the current identifier. The `mapping.csv` file will be exploited by the `create_std.py` script.
+The result of the mapping process is available in the `mapping.csv` file. The first column represents the Foursquare category identifier, the second one its English translation, while the third one the corresponding Schema.org URI. This file also contains some category names that were previously used by Foursquare, which we merged with the current identifier. The `mapping.csv` file will be exploited by the `create_std.py` script.
 
 ## Datasets
 
@@ -26,9 +26,9 @@ The resulting datasets are available on [figshare](https://doi.org/10.6084/m9.fi
 
 ## RDF Conversion
 
-We convert the CSV datasets into RDF by using the `convert_rdf.py` script.
-The script takes one parameter, the name of the dataset (without the extension). Example: `python convert_rdf.py std_2013` will parse `std_2013.csv` and export it to `std_2013.ttl`.
-If a `categories.csv` file exists, it will also automatically attempt to open and parse it, process the categories, and export it as `categories.ttl`.
+We converted the CSV datasets into RDF by using the `convert_rdf.py` script. The script takes one parameter, that is the name of the dataset without the extension. For example, `python convert_rdf.py std_2013` will parse `std_2013.csv` and export it to `std_2013.ttl`.
+
+If a `categories.csv` file exists, it will also automatically attempt to open and parse it, process the categories, and then export it as `categories.ttl`.
 
 ## Team
 
@@ -36,4 +36,5 @@ If a `categories.csv` file exists, it will also automatically attempt to open an
 - Enrico Palumbo <enrico.palumbo@ismb.it>
 - Giuseppe Rizzo <giuseppe.rizzo@ismb.it>
 - Raphaël Troncy <raphael.troncy@eurecom.fr>
+- Thibault Ehrhart <thibault.ehrhart@eurecom.fr>
 - Maurizio Morisio <maurizio.morisio@polito.it>
