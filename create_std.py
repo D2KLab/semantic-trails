@@ -75,8 +75,9 @@ geo = rg.RGeocoder(mode=2, verbose=True, stream=io.StringIO(
 venues_rg = geo.query(coords)
 
 for index, venue_id in enumerate(venues_list):
-    venues[venue_id]['city'] = venues_rg[index]['name']
-    venues[venue_id]['cc'] = venues_rg[index]['cc']
+    venues[venue_id]['geoname'] = venues_rg[index]['name']
+    venues[venue_id]['city'] = venues_rg[index]['admin1']
+    venues[venue_id]['country'] = venues_rg[index]['admin2']
 
 assert len(venues_rg) == len(venues)
 print("Geocoding", len(venues_rg), "venues...")
@@ -157,7 +158,7 @@ fp_out = open(f_out, 'w', encoding='utf8', newline='')
 writer = csv.writer(fp_out, delimiter=',')
 # write the header
 writer.writerow(["trail_id", "user_id", "venue_id", "venue_category",
-                 "venue_schema", "venue_city", "venue_country", "timestamp"])
+                 "venue_schema", "venue_geoname", "venue_city", "venue_country", "timestamp"])
 
 sequence_counter = 0
 user_counter = 0
@@ -204,15 +205,16 @@ def save_checkin(checkin, new_path=False):
 
     # count venues and cities
     final_venues.add(checkin['venue'])
-    final_cities.add(venues[checkin['venue']]['city'])
+    final_cities.add(venues[checkin['venue']]['geoname'])
 
     writer.writerow([sequence_counter,
                      users_out[checkin['user']],
-                     "foursquare:" + checkin['venue'],
+                     checkin['venue'],
                      cat_id_mapping[venues[checkin['venue']]['cat']],
                      cat_schema_mapping[venues[checkin['venue']]['cat']],
+                     venues[checkin['venue']]['geoname'],
                      venues[checkin['venue']]['city'],
-                     venues[checkin['venue']]['cc'],
+                     venues[checkin['venue']]['country'],
                      checkin['timestamp'].replace(second=0).isoformat()])
 
 
