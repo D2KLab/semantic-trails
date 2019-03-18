@@ -158,7 +158,7 @@ fp_out = open(f_out, 'w', encoding='utf8', newline='')
 writer = csv.writer(fp_out, delimiter=',')
 # write the header
 writer.writerow(["trail_id", "user_id", "venue_id", "venue_category",
-                 "venue_schema", "venue_geoname", "venue_city", "venue_country", "timestamp"])
+                 "venue_schema", "venue_geonames", "venue_city", "venue_country", "timestamp"])
 
 sequence_counter = 0
 user_counter = 0
