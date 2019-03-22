@@ -1,7 +1,6 @@
 ciso8601
 haversine
 numpy
+unidecode
 rdflib
-requests
 reverse_geocoder
-sparqlwrapper

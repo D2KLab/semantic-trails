@@ -1,6 +1,12 @@
 import csv
+import gzip
+import json
 
-geonames = []
+from haversine import haversine
+from unidecode import unidecode
+
+cities = []
+names = {}
 
 # load the cities from GeoNames
 # http://download.geonames.org/export/dump/cities500.zip
@@ -8,28 +14,87 @@ with open('cities500.txt', encoding='utf8') as fp:
     reader = csv.reader(fp, delimiter='\t')
 
     for row in reader:
-        geonames.append({'geoname_id': row[0],
-                         'name': row[1],
-                         'latitude': row[4],
-                         'longitude': row[5],
-                         'country': row[8],
-                         'population': row[14]})
+        ascii_name = unidecode(row[1]).lower()
 
-print("Number of cities:", len(geonames))
+        city = {'geoname_id': row[0],
+                'name': row[1],
+                'latitude': float(row[4]),
+                'longitude': float(row[5]),
+                'country': row[8],
+                'population': row[14],
+                'wikidata': ""}
 
+        cities.append(city)
+
+        if ascii_name not in names:
+            names[ascii_name] = [city]
+        else:
+            names[ascii_name].append(city)
+
+wikidata_counter = 0
+matches_counter = 0
+
+with gzip.open('wikidata.json.gz', 'rt') as fp:
+    for line in fp:
+        wikidata_counter += 1
+
+        if wikidata_counter % 10000 == 0:
+            print("Wikidata entity:", wikidata_counter)
+
+        entity = json.loads(line)
+
+        # the entity must have an English label
+        if 'en' not in entity['labels']:
+            continue
+
+        # the entity must have geographical coordinates
+        if 'P625' not in entity['claims']:
+            continue
+
+        entity_label = unidecode(entity['labels']['en']['value']).lower()
+
+        # find candidate cities
+        if entity_label not in names:
+            continue
+
+        candidates = names[entity_label]
+
+        entity_coord = entity['claims']['P625'][0]['mainsnak']['datavalue']['value']
+        entity_latitude = float(entity_coord['latitude'])
+        entity_longitude = float(entity_coord['longitude'])
+
+        # find the matches
+        matches = []
+
+        for city in candidates:
+            distance = abs(haversine((city['latitude'], city['longitude']),
+                                     (entity_latitude, entity_longitude)))
+
+            # there is a match if the distance is less than 10 km
+            if distance < 10:
+                matches.append(city)
+
+        # we consider only single matches
+        if len(matches) == 1:
+            matches_counter += 1
+            matches[0]['wikidata'] = entity['id']
+
+print("Number of cities:", len(cities))
+print("Number of matches:", matches_counter)
+
+# save the cities
 with open('cities.csv', 'w', encoding='utf8', newline='') as fp:
     writer = csv.writer(fp)
     writer.writerow(["lat", "lon", "name", "admin1", "admin2", "cc"])
 
-    # for all the cities
-    for city in geonames:
+    for city in cities:
         writer.writerow([city['latitude'], city['longitude'],
-                         city['geoname_id'], city['name'], city['country'], ""])
+                         city['geoname_id'], city['name'], city['country'], city['wikidata']])
 
+# save the population
 with open('population.csv', 'w', encoding='utf8', newline='') as fp:
     writer = csv.writer(fp)
 
-    # for all the cities
-    for city in geonames:
+    for city in cities:
         if city['population'] != "0":
             writer.writerow([city['geoname_id'], city['population']])
