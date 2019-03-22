@@ -36,6 +36,14 @@ matches_counter = 0
 
 with gzip.open('wikidata.json.gz', 'rt') as fp:
     for line in fp:
+        if line[0] == '[' or line[0] == ']':
+            continue
+
+        line = line.strip()
+
+        if line[-1] == ',':
+            line = line[:-1]
+
         wikidata_counter += 1
 
         if wikidata_counter % 10000 == 0:
