@@ -22,7 +22,8 @@ with open('cities500.txt', encoding='utf8') as fp:
                 'longitude': float(row[5]),
                 'country': row[8],
                 'population': row[14],
-                'wikidata': ""}
+                'wikidata': "",
+                'sitelinks': 0}
 
         cities.append(city)
 
@@ -88,10 +89,15 @@ with gzip.open('wikidata.json.gz', 'rt') as fp:
             if distance < 10:
                 matches.append(city)
 
-        # we consider only single matches
+        # consider only single matches
         if len(matches) == 1:
-            matches_counter += 1
-            matches[0]['wikidata'] = entity['id']
+            sitelinks = len(entity['sitelinks'])
+
+            # consider the entity with more sitelinks
+            if matches[0]['sitelinks'] <= sitelinks:
+                matches_counter += 1
+                matches[0]['wikidata'] = entity['id']
+                matches[0]['sitelinks'] = sitelinks
 
 print("Number of cities:", len(cities))
 print("Number of matches:", matches_counter)
