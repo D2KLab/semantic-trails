@@ -59,7 +59,10 @@ with gzip.open('wikidata.json.gz', 'rt') as fp:
         if 'P625' not in entity['claims']:
             continue
 
-        entity_label = unidecode(entity['labels']['en']['value']).lower()
+        try:
+            entity_label = unidecode(entity['labels']['en']['value']).lower()
+        except KeyError:
+            continue
 
         # find candidate cities
         if entity_label not in names:
@@ -67,9 +70,12 @@ with gzip.open('wikidata.json.gz', 'rt') as fp:
 
         candidates = names[entity_label]
 
-        entity_coord = entity['claims']['P625'][0]['mainsnak']['datavalue']['value']
-        entity_latitude = float(entity_coord['latitude'])
-        entity_longitude = float(entity_coord['longitude'])
+        try:
+            entity_coord = entity['claims']['P625'][0]['mainsnak']['datavalue']['value']
+            entity_latitude = float(entity_coord['latitude'])
+            entity_longitude = float(entity_coord['longitude'])
+        except (KeyError, ValueError):
+            continue
 
         # find the matches
         matches = []
