@@ -75,9 +75,13 @@ geo = rg.RGeocoder(mode=2, verbose=True, stream=io.StringIO(
 venues_rg = geo.query(coords)
 
 for index, venue_id in enumerate(venues_list):
-    venues[venue_id]['geoname'] = venues_rg[index]['name']
+    venues[venue_id]['geonames'] = 'geonames:' + venues_rg[index]['name']
     venues[venue_id]['city'] = venues_rg[index]['admin1']
     venues[venue_id]['country'] = venues_rg[index]['admin2']
+    if venues_rg[index]['cc'] != '':
+        venues[venue_id]['wikidata'] = 'wd:' + venues_rg[index]['cc']
+    else:
+        venues[venue_id]['wikidata'] = ''
 
 assert len(venues_rg) == len(venues)
 print("Geocoding", len(venues_rg), "venues...")
@@ -158,7 +162,7 @@ fp_out = open(f_out, 'w', encoding='utf8', newline='')
 writer = csv.writer(fp_out, delimiter=',')
 # write the header
 writer.writerow(["trail_id", "user_id", "venue_id", "venue_category",
-                 "venue_schema", "venue_geonames", "venue_city", "venue_country", "timestamp"])
+                 "venue_schema", "venue_geonames", "venue_wikidata", "venue_city_name", "venue_country", "timestamp"])
 
 sequence_counter = 0
 user_counter = 0
@@ -205,14 +209,15 @@ def save_checkin(checkin, new_path=False):
 
     # count venues and cities
     final_venues.add(checkin['venue'])
-    final_cities.add(venues[checkin['venue']]['geoname'])
+    final_cities.add(venues[checkin['venue']]['geonames'])
 
     writer.writerow([sequence_counter,
                      users_out[checkin['user']],
                      checkin['venue'],
                      cat_id_mapping[venues[checkin['venue']]['cat']],
                      cat_schema_mapping[venues[checkin['venue']]['cat']],
-                     venues[checkin['venue']]['geoname'],
+                     venues[checkin['venue']]['geonames'],
+                     venues[checkin['venue']]['wikidata'],
                      venues[checkin['venue']]['city'],
                      venues[checkin['venue']]['country'],
                      checkin['timestamp'].replace(second=0).isoformat()])
